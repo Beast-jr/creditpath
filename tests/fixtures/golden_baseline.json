@@ -1,0 +1,102 @@
+[
+  {
+    "business_name": "Kumar Auto Spares",
+    "weighted_score": 53.25,
+    "tier": "NEARLY_READY"
+  },
+  {
+    "business_name": "Sunrise Pharmacy",
+    "weighted_score": 90.0,
+    "tier": "LOAN_READY"
+  },
+  {
+    "business_name": "Corner Tea Stall",
+    "weighted_score": 27.0,
+    "tier": "NOT_READY"
+  },
+  {
+    "business_name": "Meena Textiles",
+    "weighted_score": 69.5,
+    "tier": "NEARLY_READY"
+  },
+  {
+    "business_name": "Green Farm Produce",
+    "weighted_score": 90.0,
+    "tier": "LOAN_READY"
+  },
+  {
+    "business_name": "BuildRight Construction",
+    "weighted_score": 38.25,
+    "tier": "NEEDS_WORK"
+  },
+  {
+    "business_name": "Spice Route Restaurant",
+    "weighted_score": 42.0,
+    "tier": "NEEDS_WORK"
+  },
+  {
+    "business_name": "TechFix Services",
+    "weighted_score": 76.0,
+    "tier": "LOAN_READY"
+  },
+  {
+    "business_name": "Fresh Mart Grocery",
+    "weighted_score": 89.0,
+    "tier": "LOAN_READY"
+  },
+  {
+    "business_name": "Nova Manufacturing",
+    "weighted_score": 63.25,
+    "tier": "NEARLY_READY"
+  },
+  {
+    "business_name": "Startup Cafe",
+    "weighted_score": 27.0,
+    "tier": "NOT_READY"
+  },
+  {
+    "business_name": "Reliable Retail",
+    "weighted_score": 69.5,
+    "tier": "NEARLY_READY"
+  },
+  {
+    "business_name": "Apex Pharma Distributors",
+    "weighted_score": 90.0,
+    "tier": "LOAN_READY"
+  },
+  {
+    "business_name": "Quantum Widgets",
+    "weighted_score": 69.5,
+    "tier": "NEARLY_READY"
+  },
+  {
+    "business_name": "Coastal Fisheries",
+    "weighted_score": 62.0,
+    "tier": "NEARLY_READY"
+  },
+  {
+    "business_name": "Metro Hardware",
+    "weighted_score": 39.5,
+    "tier": "NEEDS_WORK"
+  },
+  {
+    "business_name": "Elite Interiors",
+    "weighted_score": 44.5,
+    "tier": "NEEDS_WORK"
+  },
+  {
+    "business_name": "Daily Needs Store",
+    "weighted_score": 86.0,
+    "tier": "LOAN_READY"
+  },
+  {
+    "business_name": "Prime Logistics",
+    "weighted_score": 63.25,
+    "tier": "NEARLY_READY"
+  },
+  {
+    "business_name": "New Leaf Nursery",
+    "weighted_score": 43.25,
+    "tier": "NEEDS_WORK"
+  }
+]
