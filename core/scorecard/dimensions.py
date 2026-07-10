@@ -66,3 +66,59 @@ def score_gst_regularity(profile: BusinessProfile) -> DimensionScore:
         label=label,
         reason=f"GST filing {pct:.0f}% in {band} band.",
     )
+def score_business_vintage(profile: BusinessProfile) -> DimensionScore:
+    """Score operational track record from vintage_months."""
+    m = profile.vintage_months
+    if m >= c.VINTAGE_STRONG_MIN:
+        score, label, band = c.SCORE_STRONG, c.LABEL_STRONG, "STRONG (>=60)"
+    elif m >= c.VINTAGE_ADEQUATE_MIN:
+        score, label, band = c.SCORE_ADEQUATE, c.LABEL_ADEQUATE, "ADEQUATE (36-59)"
+    elif m >= c.VINTAGE_WEAK_MIN:
+        score, label, band = c.SCORE_WEAK, c.LABEL_WEAK, "WEAK (12-35)"
+    else:
+        score, label, band = c.SCORE_CRITICAL, c.LABEL_CRITICAL, "CRITICAL (<12)"
+    return DimensionScore(
+        dimension_name=c.DIM_VINTAGE,
+        score=score,
+        label=label,
+        reason=f"Vintage {m} months in {band} band.",
+    )
+
+
+def score_sectoral_risk(profile: BusinessProfile) -> DimensionScore:
+    """Score industry risk via a fixed lookup; unknown sectors default to MEDIUM."""
+    key = profile.sector.strip().lower()
+    tier = c.SECTOR_RISK_TABLE.get(key, c.SECTOR_RISK_DEFAULT)
+    score, label = c.SECTOR_TIER_TO_SCORE[tier]
+    known = key in c.SECTOR_RISK_TABLE
+    suffix = "" if known else " (unlisted sector, default)"
+    return DimensionScore(
+        dimension_name=c.DIM_SECTORAL,
+        score=score,
+        label=label,
+        reason=f"Sector '{profile.sector}' classified {tier} risk{suffix}.",
+    )
+
+
+def score_collateral(profile: BusinessProfile) -> DimensionScore:
+    """Score asset backing as collateral_value / loan_sought."""
+    if not profile.has_collateral or profile.collateral_value_inr <= 0:
+        return DimensionScore(
+            dimension_name=c.DIM_COLLATERAL,
+            score=c.SCORE_CRITICAL,
+            label=c.LABEL_CRITICAL,
+            reason="No collateral pledged; loan would be unsecured.",
+        )
+    coverage = profile.collateral_value_inr / profile.loan_amount_sought_inr
+    if coverage >= c.COLLATERAL_STRONG_MIN:
+        score, label = c.SCORE_STRONG, c.LABEL_STRONG
+    elif coverage >= c.COLLATERAL_ADEQUATE_MIN:
+        score, label = c.SCORE_ADEQUATE, c.LABEL_ADEQUATE
+    else:
+        score, label = c.SCORE_WEAK, c.LABEL_WEAK
+    return DimensionScore(
+        dimension_name=c.DIM_COLLATERAL,
+        score=score,
+        label=label,
+        reason=f"Collateral covers {coverage * 100:.0f}% of loan sought; {label}.",
+    )

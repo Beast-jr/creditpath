@@ -63,3 +63,56 @@ def test_gst_boundary_75():
 
 def test_gst_middle():
     assert score_gst_regularity(_profile(gst_filing_rate_pct=60)).score == 45.0
+from core.scorecard.dimensions import (
+    score_business_vintage,
+    score_sectoral_risk,
+    score_collateral,
+)
+from core.scorecard.weights import DIMENSION_WEIGHTS
+
+
+# --- Business vintage ---
+def test_vintage_strong():
+    assert score_business_vintage(_profile(vintage_months=72)).score == 90.0
+
+def test_vintage_critical():
+    assert score_business_vintage(_profile(vintage_months=6)).score == 20.0
+
+def test_vintage_boundary_36():
+    assert score_business_vintage(_profile(vintage_months=36)).score == 70.0
+
+def test_vintage_middle():
+    assert score_business_vintage(_profile(vintage_months=28)).score == 45.0
+
+
+# --- Sectoral risk ---
+def test_sector_low():
+    assert score_sectoral_risk(_profile(sector="healthcare")).score == 90.0
+
+def test_sector_high():
+    assert score_sectoral_risk(_profile(sector="construction")).score == 40.0
+
+def test_sector_unknown_defaults_medium():
+    assert score_sectoral_risk(_profile(sector="quantum widgets")).score == 65.0
+
+def test_sector_case_insensitive():
+    assert score_sectoral_risk(_profile(sector="  Manufacturing ")).score == 65.0
+
+
+# --- Collateral ---
+def test_collateral_strong():
+    assert score_collateral(_profile(collateral_value_inr=1200000, loan_amount_sought_inr=1000000)).score == 90.0
+
+def test_collateral_none():
+    assert score_collateral(_profile(has_collateral=False, collateral_value_inr=0)).score == 20.0
+
+def test_collateral_boundary_half():
+    assert score_collateral(_profile(collateral_value_inr=500000, loan_amount_sought_inr=1000000)).score == 70.0
+
+def test_collateral_weak():
+    assert score_collateral(_profile(collateral_value_inr=100000, loan_amount_sought_inr=1000000)).score == 45.0
+
+
+# --- Weights ---
+def test_weights_sum_to_one():
+    assert abs(sum(DIMENSION_WEIGHTS.values()) - 1.0) < 1e-9

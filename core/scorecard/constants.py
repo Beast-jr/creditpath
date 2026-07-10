@@ -32,3 +32,53 @@ DSCR_WEAK_MIN = 1.0
 GST_STRONG_MIN = 90.0
 GST_ADEQUATE_MIN = 75.0
 GST_WEAK_MIN = 50.0
+# Dimension names (continued)
+DIM_VINTAGE = "Business Vintage"
+DIM_SECTORAL = "Sectoral Risk"
+DIM_COLLATERAL = "Collateral Availability"
+
+# --- Business vintage thresholds (months) ---
+VINTAGE_STRONG_MIN = 60
+VINTAGE_ADEQUATE_MIN = 36
+VINTAGE_WEAK_MIN = 12
+
+# --- Sectoral risk ---
+# Band scores are distinct from the shared 90/70/45/20 set per design doc.
+SECTOR_SCORE_LOW = 90.0
+SECTOR_SCORE_MEDIUM = 65.0
+SECTOR_SCORE_HIGH = 40.0
+SECTOR_SCORE_VERY_HIGH = 20.0
+
+SECTOR_RISK_DEFAULT = "MEDIUM"   # unknown sectors -> neutral
+
+# Sector name (lowercased) -> risk tier
+SECTOR_RISK_TABLE = {
+    "essential retail": "LOW",
+    "food": "LOW",
+    "grocery": "LOW",
+    "healthcare": "LOW",
+    "pharmacy": "LOW",
+    "manufacturing": "MEDIUM",
+    "auto-parts retail": "MEDIUM",
+    "auto-parts": "MEDIUM",
+    "retail": "MEDIUM",
+    "services": "MEDIUM",
+    "textile": "MEDIUM",
+    "construction": "HIGH",
+    "hospitality": "HIGH",
+    "restaurant": "HIGH",
+    "discretionary retail": "HIGH",
+    "speculative": "VERY_HIGH",
+}
+
+SECTOR_TIER_TO_SCORE = {
+    "LOW": (SECTOR_SCORE_LOW, LABEL_STRONG),
+    "MEDIUM": (SECTOR_SCORE_MEDIUM, LABEL_ADEQUATE),
+    "HIGH": (SECTOR_SCORE_HIGH, LABEL_WEAK),
+    "VERY_HIGH": (SECTOR_SCORE_VERY_HIGH, LABEL_CRITICAL),
+}
+
+# --- Collateral coverage thresholds (collateral_value / loan_sought) ---
+COLLATERAL_STRONG_MIN = 1.0
+COLLATERAL_ADEQUATE_MIN = 0.5
+COLLATERAL_WEAK_MIN = 0.01
