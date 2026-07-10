@@ -4,6 +4,7 @@ import time
 from typing import List
 
 from core.schema import BusinessProfile, DimensionScore, ScorecardResult
+from core.schema import validate_business_profile
 from core.scorecard import dimensions as d
 from core.scorecard.weights import DIMENSION_WEIGHTS
 
@@ -29,6 +30,7 @@ def _assign_tier(weighted_score: float) -> str:
 def score_business(profile: BusinessProfile) -> ScorecardResult:
     """Score a profile across all six dimensions and return a full ScorecardResult."""
     start = time.perf_counter()
+    validate_business_profile(profile)   # reject bad input before scoring
 
     scores: List[DimensionScore] = [
         d.score_cash_flow_consistency(profile),
