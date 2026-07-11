@@ -1,0 +1,20 @@
+{
+  "scheme_id": "pm_vishwakarma",
+  "name": "PM Vishwakarma Scheme",
+  "administered_by": "Ministry of Micro, Small and Medium Enterprises",
+  "scheme_type": "term_loan",
+  "target_segments": ["micro", "first_generation", "no_collateral", "manufacturing", "services"],
+  "loan_range_min": 100000,
+  "loan_range_max": 300000,
+  "interest_rate_min": 5.0,
+  "interest_rate_max": 5.0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": ["artisan_trades"],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "Collateral-free credit for artisans and craftspeople from 18 traditional family-based trades, disbursed in two tranches: Rs 1 lakh for an 18-month tenure, followed by Rs 2 lakh for a 30-month tenure after satisfactory repayment of the first. Borrowers pay a fixed concessional interest rate of 5% per annum; the Ministry of MSME pays an 8% interest subvention upfront to the lending bank. Applicants must be 18 or older, registered under one of the specified trades, and must not have taken a loan under similar schemes such as PM SVANidhi, PMEGP, or MUDRA in the preceding 5 years; government employees and their immediate family are excluded.",
+  "official_url": "https://pmvishwakarma.gov.in/",
+  "last_verified_date": "2026-07-10"
+}

@@ -1,0 +1,20 @@
+{
+  "scheme_id": "pm_svanidhi",
+  "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+  "administered_by": "Ministry of Housing and Urban Affairs (MoHUA); credit guarantee support from CGTMSE",
+  "scheme_type": "subsidy",
+  "target_segments": ["micro", "no_collateral", "first_generation", "trading", "services"],
+  "loan_range_min": 15000,
+  "loan_range_max": 50000,
+  "interest_rate_min": 7.0,
+  "interest_rate_max": 11.0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": ["street_vending"],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "Micro-credit facility for urban street vendors holding a Certificate of Vending or Letter of Recommendation from an Urban Local Body, offered in three progressive collateral-free tranches: Rs 15,000 for 1 year, Rs 25,000 for 2 years after timely repayment of the first, and Rs 50,000 for 3 years after timely repayment of the second. The central government provides a 7% per annum interest subsidy credited quarterly on regular repayment, plus monthly cashback of Rs 50-100 for digital transactions. No collateral is required beyond hypothecation of the assets financed.",
+  "official_url": "https://pmsvanidhi.mohua.gov.in/",
+  "last_verified_date": "2026-07-10"
+}

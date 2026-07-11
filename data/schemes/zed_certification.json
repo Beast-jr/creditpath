@@ -1,0 +1,20 @@
+{
+  "scheme_id": "zed_certification",
+  "name": "MSME Sustainable (ZED) Certification Scheme",
+  "administered_by": "Ministry of Micro, Small and Medium Enterprises (Quality Council of India)",
+  "scheme_type": "subsidy",
+  "target_segments": ["micro", "small", "medium", "women_owned", "sc_st", "manufacturing"],
+  "loan_range_min": 0,
+  "loan_range_max": 0,
+  "interest_rate_min": 0.0,
+  "interest_rate_max": 0.0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": ["manufacturing"],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "Certification-cost subsidy for MSMEs adopting Zero Defect Zero Effect (ZED) quality and sustainability practices at Bronze, Silver, or Gold level: a base subsidy of 80% for micro, 60% for small, and 50% for medium enterprises on certification cost, with an additional 10% for units owned by women or SC/ST entrepreneurs or located in NER/Himalayan/LWE/island/aspirational districts, plus a further 5% for units in SFURTI or MSE-CDP clusters. A one-time Rs 10,000 joining reward is credited on taking the ZED Pledge. This scheme has no loan component; it reimburses certification costs directly and carries no interest rate.",
+  "official_url": "https://zed.msme.gov.in/",
+  "last_verified_date": "2026-07-10"
+}

@@ -1,0 +1,20 @@
+{
+  "scheme_id": "mudra_shishu",
+  "name": "Pradhan Mantri Mudra Yojana – Shishu",
+  "administered_by": "Department of Financial Services, Ministry of Finance (MUDRA Ltd. / NCGTC)",
+  "scheme_type": "term_loan",
+  "target_segments": ["micro", "first_generation", "no_collateral", "manufacturing", "trading", "services"],
+  "loan_range_min": 0,
+  "loan_range_max": 50000,
+  "interest_rate_min": 10.0,
+  "interest_rate_max": 12.0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "Entry-level collateral-free micro loan of up to Rs 50,000 under the Pradhan Mantri Mudra Yojana (PMMY), aimed at very small and first-time non-farm businesses in manufacturing, trading, and services, including allied agricultural activities. No collateral or third-party guarantee is required; loans are covered under the Credit Guarantee Fund for Micro Units (CGFMU). Available through public sector banks, private banks, regional rural banks, small finance banks, MFIs, and NBFCs.",
+  "official_url": "https://www.mudra.org.in/offerings",
+  "last_verified_date": "2026-07-10"
+}

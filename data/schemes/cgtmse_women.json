@@ -1,0 +1,20 @@
+{
+  "scheme_id": "cgtmse_women",
+  "name": "CGTMSE Enhanced Guarantee Cover for Women Entrepreneurs",
+  "administered_by": "SIDBI and Ministry of MSME (CGTMSE Trust)",
+  "scheme_type": "credit_guarantee",
+  "target_segments": ["micro", "small", "no_collateral", "women_owned"],
+  "loan_range_min": 0,
+  "loan_range_max": 10000000,
+  "interest_rate_min": 8.0,
+  "interest_rate_max": 14.0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": ["agriculture"],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "Enhanced credit guarantee cover under CGTMSE for women-owned micro and small enterprises: guarantee coverage raised from 85% to 90% of the credit facility for guarantees issued on or after 1 April 2024, plus a 10% discount on the Annual Guarantee Fee. Operates within the same collateral-free lending framework as the standard CGTMSE scheme, up to Rs 10 crore, for manufacturing or service enterprises excluding agriculture, provided the enterprise qualifies as women-owned under CGTMSE norms and holds Udyam Registration.",
+  "official_url": "https://www.cgtmse.in/",
+  "last_verified_date": "2026-07-10"
+}

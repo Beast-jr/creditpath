@@ -1,0 +1,20 @@
+{
+  "scheme_id": "sidbi_smile",
+  "name": "SIDBI Make in India Soft Loan Fund for Enterprises (SMILE)",
+  "administered_by": "Small Industries Development Bank of India (SIDBI)",
+  "scheme_type": "term_loan",
+  "target_segments": ["small", "medium", "manufacturing", "services"],
+  "loan_range_min": 1000000,
+  "loan_range_max": 2500000,
+  "interest_rate_min": 9.45,
+  "interest_rate_max": 12.7,
+  "collateral_required": true,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "SIDBI's direct term loan for new and existing MSMEs to meet the debt-equity ratio required for setting up an enterprise, or for expansion, modernisation, or technology upgradation, with emphasis on the 25 sectors identified under the Make in India programme. Rate is fixed at approximately 9.45%-9.95% per annum for the first three years (bank-rating dependent), rising to roughly 11.70%-12.70% per annum from the fourth year onward. Requires MSME registration and a satisfactory credit record; higher project-cost-linked loan quanta are available for SC/ST, persons-with-disability, and women-led enterprises.",
+  "official_url": "https://www.sidbi.in/other-loan-products",
+  "last_verified_date": "2026-07-10"
+}

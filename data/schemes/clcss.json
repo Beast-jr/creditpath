@@ -1,0 +1,20 @@
+{
+  "scheme_id": "clcss",
+  "name": "Credit Linked Capital Subsidy Scheme (CLCSS) for Technology Upgradation",
+  "administered_by": "Ministry of Micro, Small and Medium Enterprises (Development Commissioner, MSME)",
+  "scheme_type": "subsidy",
+  "target_segments": ["micro", "small", "manufacturing"],
+  "loan_range_min": 0,
+  "loan_range_max": 10000000,
+  "interest_rate_min": 0.0,
+  "interest_rate_max": 0.0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": ["manufacturing"],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "Upfront 15% capital subsidy, capped at Rs 15 lakh, for micro and small enterprises, including khadi, village, and coir industry units, that take a bank term loan to induct approved, well-established, improved technology in specified product and sub-sector lines. The subsidy is credited through the primary lending institution that sanctioned the term loan, on completion of technology upgradation. This scheme provides a capital subsidy, not a direct loan; the underlying term loan's own interest rate is set by the lending bank and is out of scope of this subsidy record.",
+  "official_url": "https://clcss.dcmsme.gov.in/",
+  "last_verified_date": "2026-07-10"
+}

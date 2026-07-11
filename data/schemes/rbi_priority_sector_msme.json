@@ -1,0 +1,20 @@
+{
+  "scheme_id": "rbi_priority_sector_msme",
+  "name": "RBI Priority Sector Lending - MSME Collateral-Free Loan Mandate",
+  "administered_by": "Reserve Bank of India",
+  "scheme_type": "credit_guarantee",
+  "target_segments": ["micro", "small", "no_collateral"],
+  "loan_range_min": 0,
+  "loan_range_max": 2500000,
+  "interest_rate_min": 0.0,
+  "interest_rate_max": 0.0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "Regulatory mandate, not a standalone loan product, under RBI's Master Direction on Priority Sector Lending: scheduled commercial banks must classify eligible MSME loans as priority sector lending and must extend loans up to Rs 10 lakh to MSE units without collateral security, with banks empowered to raise this no-collateral ceiling to Rs 25 lakh based on the borrower's track record and financial position. Classification for priority-sector purposes is based on the Udyam Registration Certificate or Udyam Assist Certificate. This entry represents the underlying collateral-free lending mandate that other central schemes on this list operate within, not a discrete product a borrower applies for directly.",
+  "official_url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11959",
+  "last_verified_date": "2026-07-10"
+}

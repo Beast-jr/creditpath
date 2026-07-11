@@ -1,0 +1,20 @@
+{
+  "scheme_id": "cgtmse",
+  "name": "Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE)",
+  "administered_by": "SIDBI and Ministry of MSME",
+  "scheme_type": "credit_guarantee",
+  "target_segments": ["micro", "small", "no_collateral", "first_generation"],
+  "loan_range_min": 0,
+  "loan_range_max": 10000000,
+  "interest_rate_min": 8.0,
+  "interest_rate_max": 14.0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": ["agriculture"],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "Credit guarantee cover (not a direct loan) enabling collateral-free lending up to Rs 10 crore for new and existing micro and small enterprises in manufacturing or service activities, excluding agriculture. The Trust guarantees 75-85% of the credit facility depending on borrower category, letting banks and NBFCs extend unsecured or partially secured loans without a third-party guarantee. Requires Udyam Registration; the lending bank charges an Annual Guarantee Fee of roughly 0.37%-1.20% of the guaranteed amount, separate from normal loan interest.",
+  "official_url": "https://www.cgtmse.in/",
+  "last_verified_date": "2026-07-10"
+}
