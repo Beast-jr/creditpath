@@ -1,0 +1,20 @@
+{
+  "scheme_id": "pmmy_mudra",
+  "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+  "administered_by": "MUDRA, under Department of Financial Services, Ministry of Finance",
+  "scheme_type": "working_capital",
+  "target_segments": ["micro", "manufacturing", "services", "trading", "no_collateral", "women"],
+  "loan_range_min": 0,
+  "loan_range_max": 2000000,
+  "interest_rate_min": 0,
+  "interest_rate_max": 0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": ["agriculture_farm", "corporate"],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "PMMY provides collateral-free loans to non-corporate, non-farm micro and small enterprises in manufacturing, trading and services. Four categories: Shishu up to Rs 50,000; Kishore Rs 50,001 to Rs 5 lakh; Tarun Rs 5 lakh to Rs 10 lakh; Tarun Plus Rs 10 lakh to Rs 20 lakh (introduced 24 October 2024, only for borrowers who have repaid a prior Tarun loan). Loans are available through banks, RRBs, SFBs, NBFCs and MFIs. No collateral required; covered under the Credit Guarantee Fund for Micro Units (CGFMU). Interest rate is set by the lending institution.",
+  "official_url": "https://www.mudra.org.in/",
+  "last_verified_date": "2026-07-10"
+}
