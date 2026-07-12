@@ -1,0 +1,20 @@
+{
+  "scheme_id": "maharashtra_udyog_ratna",
+  "name": "Maharashtra Udyog Ratna Award Scheme",
+  "administered_by": "Department of Industries, Government of Maharashtra",
+  "scheme_type": "subsidy",
+  "target_segments": ["micro", "small", "medium", "manufacturing"],
+  "loan_range_min": 0,
+  "loan_range_max": 0,
+  "interest_rate_min": 0,
+  "interest_rate_max": 0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 24,
+  "eligibility_gst_required": true,
+  "eligibility_sectors_included": ["manufacturing"],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "Maharashtra",
+  "retrieval_text": "Maharashtra Udyog Ratna is a state award scheme recognising outstanding manufacturing MSMEs in Maharashtra that have been in operation for at least two years and are GST-compliant. Award recipients receive a certificate, a trophy, and a grant of up to Rs 50 lakh based on investment in plant and machinery. The award is intended to promote industrial growth and job creation in Maharashtra and carries visibility benefits for accessing institutional credit. This scheme has no direct loan component; it provides a grant and recognition to performing MSME manufacturing units.",
+  "official_url": "https://industry.maharashtra.gov.in/",
+  "last_verified_date": "2026-07-12"
+}

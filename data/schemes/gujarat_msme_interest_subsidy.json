@@ -1,0 +1,20 @@
+{
+  "scheme_id": "gujarat_msme_interest_subsidy",
+  "name": "Gujarat Aatmanirbhar MSME Interest Subsidy Scheme",
+  "administered_by": "Industries and Mines Department, Government of Gujarat",
+  "scheme_type": "subsidy",
+  "target_segments": ["micro", "small", "medium", "manufacturing", "services", "sc_st", "women"],
+  "loan_range_min": 0,
+  "loan_range_max": 0,
+  "interest_rate_min": 0,
+  "interest_rate_max": 0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "Gujarat",
+  "retrieval_text": "Under the Gujarat Industrial Policy (Aatmanirbhar Gujarat Scheme), new manufacturing and service MSME units receive an interest subsidy on term loans for plant, machinery, equipment, and furniture (land and building excluded). The subsidy rate depends on taluka category: Category 1 talukas receive 7% subsidy on term loans up to Rs 35 lakh per annum for 7 years; Category 2 talukas receive 6% up to Rs 30 lakh per annum for 6 years. SC/ST entrepreneurs, women, physically challenged persons, and young entrepreneurs (below 35) receive an additional 1% subsidy, capped at a maximum of 9% across all categories. Application must be filed within one year of first loan disbursement or before commencement of commercial production. Official source: msmec.gujarat.gov.in.",
+  "official_url": "https://msmec.gujarat.gov.in/incentivescheme",
+  "last_verified_date": "2026-07-12"
+}

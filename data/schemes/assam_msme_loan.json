@@ -1,0 +1,20 @@
+{
+  "scheme_id": "assam_msme_loan",
+  "name": "Assam MSME Loan and Subsidy Scheme",
+  "administered_by": "Directorate of Industries and Commerce, Government of Assam",
+  "scheme_type": "subsidy",
+  "target_segments": ["micro", "small", "first_generation", "women", "manufacturing", "services"],
+  "loan_range_min": 0,
+  "loan_range_max": 2000000,
+  "interest_rate_min": 0,
+  "interest_rate_max": 0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "Assam",
+  "retrieval_text": "The Government of Assam supports micro and small enterprises through a bank-linked interest subvention and capital subsidy package under its MSME promotion policy for the North-Eastern Region. Eligible manufacturing MSMEs receive capital investment subsidy of up to 30% of the cost of plant and machinery, capped at Rs 30 lakh. Interest subvention of 3-5% is available on working capital and term loans. Women entrepreneurs and enterprises in identified backward districts receive enhanced benefits. The scheme is designed to address the infrastructure and credit access disadvantages of the North-Eastern Region. Apply through the Assam Industries portal.",
+  "official_url": "https://industryassam.in/",
+  "last_verified_date": "2026-07-12"
+}

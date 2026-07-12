@@ -1,0 +1,20 @@
+{
+  "scheme_id": "sidbi_green_finance",
+  "name": "SIDBI Green Finance Scheme",
+  "administered_by": "Small Industries Development Bank of India (SIDBI)",
+  "scheme_type": "term_loan",
+  "target_segments": ["micro", "small", "medium", "manufacturing", "services"],
+  "loan_range_min": 0,
+  "loan_range_max": 200000000,
+  "interest_rate_min": 8,
+  "interest_rate_max": 9,
+  "collateral_required": true,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "SIDBI's Green Finance Scheme provides direct term loans up to Rs 20 crore at interest rates of approximately 7.6-9.4% per annum to MSMEs investing in green projects aligned with India's national climate commitments. Eligible projects include renewable energy installations (solar, wind, biogas), electric vehicle charging stations, battery swap infrastructure, waste management systems, and clean manufacturing processes. The scheme supports India's commitment to reduce greenhouse gas emissions and aligns with the Aatmanirbhar Bharat mission. A risk sharing facility window is also available for high-impact innovative climate technology projects that have successfully reached the prototype stage.",
+  "official_url": "https://sidbi.in/en/products",
+  "last_verified_date": "2026-07-12"
+}

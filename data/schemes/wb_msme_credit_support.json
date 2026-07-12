@@ -1,0 +1,20 @@
+{
+  "scheme_id": "wb_msme_credit_support",
+  "name": "West Bengal MSME Credit Support Scheme",
+  "administered_by": "Micro, Small and Medium Enterprises and Textiles Department, Government of West Bengal",
+  "scheme_type": "credit_guarantee",
+  "target_segments": ["micro", "small", "manufacturing", "services", "trading"],
+  "loan_range_min": 0,
+  "loan_range_max": 20000000,
+  "interest_rate_min": 0,
+  "interest_rate_max": 0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "West Bengal",
+  "retrieval_text": "The Government of West Bengal provides credit support and guarantee facilitation to micro and small enterprises in the state through its MSME and Textiles Department. The scheme facilitates collateral-free lending up to Rs 2 crore by facilitating CGTMSE guarantee cover and, in certain cases, providing state-level guarantee fee reimbursement. The scheme is intended to complement central government credit guarantee mechanisms and improve credit flow to first-generation and underserved MSMEs across manufacturing, services, and trading sectors in West Bengal. Interest rate is set by the lending institution.",
+  "official_url": "https://wbmsme.gov.in/",
+  "last_verified_date": "2026-07-12"
+}

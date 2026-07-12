@@ -1,0 +1,20 @@
+{
+  "scheme_id": "andhra_msme_interest_subsidy",
+  "name": "Andhra Pradesh MSME Interest Subsidy Scheme",
+  "administered_by": "Department of Industries and Commerce, Government of Andhra Pradesh",
+  "scheme_type": "subsidy",
+  "target_segments": ["micro", "small", "medium", "manufacturing", "sc_st", "women"],
+  "loan_range_min": 0,
+  "loan_range_max": 0,
+  "interest_rate_min": 0,
+  "interest_rate_max": 0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": ["manufacturing"],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "Andhra Pradesh",
+  "retrieval_text": "The Andhra Pradesh government provides interest subsidy to new manufacturing MSME units under the AP Industrial Development Policy. Subsidy of 5-9% per annum on term loans is provided for a period of 5 years for eligible plant and machinery investments, with enhanced rates for SC/ST and women entrepreneurs and for enterprises in backward areas and special economic zones. The scheme has no direct loan component; it reimburses the interest differential after verification of loan repayment. Applicants must have commenced commercial production during the operative period and applied within one year of first loan disbursement. Apply at apindustries.gov.in.",
+  "official_url": "https://apindustries.gov.in/",
+  "last_verified_date": "2026-07-12"
+}

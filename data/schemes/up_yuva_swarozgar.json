@@ -1,0 +1,20 @@
+{
+  "scheme_id": "up_yuva_swarozgar",
+  "name": "Mukhyamantri Yuva Swarozgar Yojana, Uttar Pradesh",
+  "administered_by": "Department of Micro, Small and Medium Enterprises, Government of Uttar Pradesh",
+  "scheme_type": "subsidy",
+  "target_segments": ["micro", "small", "first_generation", "sc_st", "women", "manufacturing", "services"],
+  "loan_range_min": 0,
+  "loan_range_max": 2500000,
+  "interest_rate_min": 0,
+  "interest_rate_max": 0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "Uttar Pradesh",
+  "retrieval_text": "The UP Mukhyamantri Yuva Swarozgar Yojana provides bank-linked financial assistance to educated unemployed youth aged 18-40 in Uttar Pradesh to set up self-employment enterprises. Maximum project cost is Rs 25 lakh for manufacturing and Rs 10 lakh for the service sector. A margin money subsidy of 25% of the total project cost is provided by the state government, with SC/ST and women entrepreneurs receiving 25% reservation under the scheme. Projects costing less than Rs 4 lakh do not require collateral. The applicant must be a permanent resident of UP, must not have defaulted on any prior bank loan, and must not have previously availed similar central or state self-employment benefits. Apply at msme.up.gov.in.",
+  "official_url": "https://msme.up.gov.in/",
+  "last_verified_date": "2026-07-12"
+}

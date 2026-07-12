@@ -1,0 +1,20 @@
+{
+  "scheme_id": "tidco_msme",
+  "name": "TIDCO Industrial Plot Allotment for MSMEs",
+  "administered_by": "Tamil Nadu Industrial Development Corporation (TIDCO)",
+  "scheme_type": "subsidy",
+  "target_segments": ["micro", "small", "medium", "manufacturing"],
+  "loan_range_min": 0,
+  "loan_range_max": 0,
+  "interest_rate_min": 0,
+  "interest_rate_max": 0,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": ["manufacturing"],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "Tamil Nadu",
+  "retrieval_text": "TIDCO allots developed industrial plots to manufacturing MSMEs in Tamil Nadu at concessional rates through its network of industrial estates across the state. Plots are allotted at 50% of the prevailing guideline value for eligible MSME manufacturing units on plots up to 5 acres. Priority is given to new enterprises, first-generation entrepreneurs, and units in thrust sectors identified by the Tamil Nadu government. This scheme has no direct loan component; it reduces the land acquisition cost for manufacturing MSMEs setting up in designated industrial estates.",
+  "official_url": "https://www.tidco.com/",
+  "last_verified_date": "2026-07-12"
+}

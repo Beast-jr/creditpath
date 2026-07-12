@@ -1,0 +1,20 @@
+{
+  "scheme_id": "msmfc",
+  "name": "Maharashtra State Minorities and SC/ST Finance Corporation (MSMFC) Term Loan",
+  "administered_by": "Maharashtra State Minorities and Scheduled Castes/Scheduled Tribes Finance and Development Corporation (MSMFC)",
+  "scheme_type": "term_loan",
+  "target_segments": ["sc_st", "minorities", "women", "micro", "small", "first_generation"],
+  "loan_range_min": 50000,
+  "loan_range_max": 5000000,
+  "interest_rate_min": 5,
+  "interest_rate_max": 6,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "Maharashtra",
+  "retrieval_text": "MSMFC provides term loans from Rs 50,000 to Rs 50 lakh at concessional interest rates of 5-6% per annum to entrepreneurs from Scheduled Castes, Scheduled Tribes, minority communities (Muslims, Christians, Sikhs, Buddhists, Parsis, Jains), and women in Maharashtra. Loans up to Rs 10 lakh are extended without collateral; above that, CGTMSE-backed guarantee cover is used. A capital subsidy of up to 30% of the project cost is available for eligible applicants. The applicant must be a permanent resident of Maharashtra with an annual family income not exceeding Rs 8 lakh.",
+  "official_url": "https://msmfc.maharashtra.gov.in/en/",
+  "last_verified_date": "2026-07-12"
+}

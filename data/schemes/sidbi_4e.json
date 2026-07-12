@@ -1,0 +1,20 @@
+{
+  "scheme_id": "sidbi_4e",
+  "name": "SIDBI End-to-End Energy Efficiency (4E) Financing Scheme",
+  "administered_by": "Small Industries Development Bank of India (SIDBI)",
+  "scheme_type": "term_loan",
+  "target_segments": ["micro", "small", "medium", "manufacturing"],
+  "loan_range_min": 1000000,
+  "loan_range_max": 30000000,
+  "interest_rate_min": 6,
+  "interest_rate_max": 7,
+  "collateral_required": true,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": ["manufacturing"],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "SIDBI's 4E scheme provides term loans from Rs 10 lakh to Rs 3 crore at concessional interest rates of 6.4-7% per annum to manufacturing MSMEs investing in energy efficiency improvements and clean energy projects aligned with India's sustainable development goals. Funding is channelised in collaboration with the World Bank. Eligible investments include energy-efficient machinery, LED lighting, solar rooftop installations, and waste heat recovery systems. The scheme aims to reduce greenhouse gas emissions while lowering energy costs for MSME manufacturers.",
+  "official_url": "https://sidbi.in/en/products",
+  "last_verified_date": "2026-07-12"
+}

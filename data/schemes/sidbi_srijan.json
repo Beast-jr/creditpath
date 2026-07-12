@@ -1,0 +1,20 @@
+{
+  "scheme_id": "sidbi_srijan",
+  "name": "TIFAC-SIDBI Revolving Technology Innovation Fund (SRIJAN)",
+  "administered_by": "Small Industries Development Bank of India (SIDBI) in collaboration with TIFAC",
+  "scheme_type": "term_loan",
+  "target_segments": ["micro", "small", "medium", "manufacturing", "services"],
+  "loan_range_min": 0,
+  "loan_range_max": 20000000,
+  "interest_rate_min": 3,
+  "interest_rate_max": 5,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "",
+  "retrieval_text": "SIDBI and TIFAC jointly provide highly concessional soft loans up to Rs 2 crore per project at 3-5% per annum to Indian MSMEs and startups for development, demonstration, up-scaling, and commercialisation of innovative technology-based projects that have reached pre-commercialisation stage or are ready for scale-up. Loans are provided on flexible repayment terms. Technical evaluation of project proposals is carried out by TIFAC while financial appraisal is done by SIDBI. Applications can be submitted to either TIFAC or SIDBI through a common application form available at tifac.org.in or sidbi.in.",
+  "official_url": "https://www.tifac.org.in/index.php/programmes/admin-finance/sidbi",
+  "last_verified_date": "2026-07-12"
+}

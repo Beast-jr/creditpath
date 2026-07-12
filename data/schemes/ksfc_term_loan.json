@@ -1,0 +1,20 @@
+{
+  "scheme_id": "ksfc_term_loan",
+  "name": "Karnataka State Financial Corporation (KSFC) Term Loan",
+  "administered_by": "Karnataka State Financial Corporation (KSFC)",
+  "scheme_type": "term_loan",
+  "target_segments": ["micro", "small", "medium", "manufacturing", "services", "women", "sc_st"],
+  "loan_range_min": 1000000,
+  "loan_range_max": 100000000,
+  "interest_rate_min": 9,
+  "interest_rate_max": 12,
+  "collateral_required": true,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "Karnataka",
+  "retrieval_text": "KSFC provides term loans from Rs 10 lakh to Rs 10 crore at interest rates of 9-12% per annum to micro, small and medium enterprises in manufacturing, services, and trade sectors across Karnataka's 29 branch offices. Women entrepreneurs receive a 1% interest rebate under a dedicated KSWDC-backed subvention scheme; SC/ST entrepreneurs receive an additional 1% rebate. Margin money requirement is 20% in backward districts and 22.5% elsewhere. Repayment period is up to 10 years including a moratorium of up to 2 years. Collateral is mandatory. Processing fee is 1% of the loan amount.",
+  "official_url": "https://ksfc.karnataka.gov.in/info-2/Schemes/en",
+  "last_verified_date": "2026-07-12"
+}

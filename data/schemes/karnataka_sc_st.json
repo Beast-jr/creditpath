@@ -1,0 +1,20 @@
+{
+  "scheme_id": "karnataka_sc_st",
+  "name": "Karnataka SC/ST Entrepreneurship Development Scheme (KSSDCL)",
+  "administered_by": "Karnataka State SC/ST Development Corporation Limited (KSSDCL)",
+  "scheme_type": "composite",
+  "target_segments": ["sc_st", "micro", "first_generation", "manufacturing", "services", "trading"],
+  "loan_range_min": 100000,
+  "loan_range_max": 1000000,
+  "interest_rate_min": 4,
+  "interest_rate_max": 6,
+  "collateral_required": false,
+  "eligibility_vintage_months_min": 0,
+  "eligibility_gst_required": false,
+  "eligibility_sectors_included": [],
+  "eligibility_sectors_excluded": [],
+  "eligibility_geographic_restriction": "Karnataka",
+  "retrieval_text": "KSSDCL provides composite term loans at concessional interest rates of 4-6% per annum to Scheduled Caste and Scheduled Tribe entrepreneurs in Karnataka for setting up or expanding micro enterprises in manufacturing, services, and trading. Loans from Rs 1 lakh to Rs 10 lakh are available without collateral. A capital subsidy of up to 30% of the project cost is also available for eligible applicants. The applicant must be a permanent resident of Karnataka, belong to a notified SC or ST community, and must not have previously availed benefits under any similar state or central self-employment scheme.",
+  "official_url": "https://kssdcl.karnataka.gov.in/info-3/Economic+Empowerment/en",
+  "last_verified_date": "2026-07-12"
+}
