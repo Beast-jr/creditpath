@@ -73,3 +73,62 @@ framework (Django) — rejected as overkill for a handful of endpoints.
 **Consequences:** core/ is reusable by any future client (React, mobile) with no
 changes. FastAPI auto-generates Swagger docs at /docs — a free professional
 touch. One more process to run and deploy (Railway), which is acceptable.
+---
+
+## ADR-006: 36 structured JSON documents over a larger unstructured corpus
+
+**Context:** The recommendation engine needs a knowledge base of government
+financing schemes for Indian MSMEs. Two approaches were considered: scrape
+hundreds of pages from government portals into raw text and rely on pure
+semantic search, or curate a smaller set of structured JSON documents validated
+against a strict schema.
+
+**Decision:** 36 hand-curated JSON documents, each validated against a JSON
+Schema (Draft-07) with `additionalProperties: false`.
+
+**Alternatives considered:** A large scraped corpus — rejected for three reasons.
+First, the constraint filter needs typed fields (numeric loan ranges, boolean
+collateral flags, sector lists, vintage minimums) to eliminate ineligible schemes
+deterministically; parsing these from free text would require an extraction step
+that introduces errors. Second, scraped government pages contain navigation chrome,
+disclaimers, and boilerplate that pollute embeddings; the hand-written
+`retrieval_text` field gives the sentence-transformer a clean, dense target.
+Third, MSME lending in India is dominated by a known set of programmes (MUDRA,
+CGTMSE, Stand-Up India, SIDBI direct, plus state-level interest subsidy and
+term loan schemes) — 36 documents cover this universe without padding.
+
+**Consequences:** Adding a scheme means creating a validated JSON file and
+re-running the embedding pipeline — intentional friction that keeps data quality
+high. If the scheme landscape shifts significantly, the KB must be manually
+updated, which is acceptable at this project's scale.
+---
+
+## ADR-006: 36 structured JSON documents over a larger unstructured corpus
+
+**Status:** Accepted
+**Date:** 2026-07-12
+
+**Context:** The recommendation engine needs a knowledge base of government
+financing schemes for Indian MSMEs. Two approaches were considered: scrape
+hundreds of pages from government portals into raw text and rely on pure
+semantic search, or curate a smaller set of structured JSON documents validated
+against a strict schema.
+
+**Decision:** 36 hand-curated JSON documents, each validated against a JSON
+Schema (Draft-07) with additionalProperties: false.
+
+**Alternatives considered:** A large scraped corpus — rejected for three reasons.
+First, the constraint filter needs typed fields (numeric loan ranges, boolean
+collateral flags, sector lists, vintage minimums) to eliminate ineligible schemes
+deterministically; parsing these from free text introduces errors. Second,
+scraped government pages contain navigation chrome and boilerplate that pollute
+embeddings; the hand-written retrieval_text field gives the sentence-transformer
+a clean, dense target. Third, MSME lending in India is dominated by a known set
+of programmes — 36 documents cover this universe without padding.
+
+**Consequences:** Adding a scheme requires creating a validated JSON file and
+re-running the embedding pipeline — intentional friction that keeps data quality
+high. URL verification (scripts/verify_urls.py) shows 33/36 URLs return HTTP 200;
+the 3 remaining (clcss.dcmsme.gov.in, standupmitra.in, udyamregistration.gov.in)
+are confirmed-correct official URLs that block automated requests with 503/403
+responses but load normally in browsers. These are documented here and accepted.

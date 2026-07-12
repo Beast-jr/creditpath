@@ -1,12 +1,14 @@
 """Validates data/scheme_schema.json loads and a sample scheme conforms."""
 
 import json
+import re
 from pathlib import Path
 
 import jsonschema
 import pytest
 
 SCHEMA_PATH = Path("data/scheme_schema.json")
+SCHEMES_DIR = Path("data/schemes")
 
 
 def _schema() -> dict:
@@ -33,7 +35,7 @@ def _valid_scheme() -> dict:
         "eligibility_geographic_restriction": "",
         "retrieval_text": "Collateral-free credit guarantee for micro and small enterprises up to Rs 2 crore.",
         "official_url": "https://www.cgtmse.in/",
-        "last_verified_date": "2026-07-10"
+        "last_verified_date": "2026-07-10",
     }
 
 
@@ -64,3 +66,47 @@ def test_bad_url_fails():
     bad["official_url"] = "ftp://nope"
     with pytest.raises(jsonschema.ValidationError):
         jsonschema.validate(bad, _schema())
+
+
+# ── Day 13: Cross-validation tests ──────────────────────────────
+
+
+def _load_all_schemes():
+    results = []
+    for path in sorted(SCHEMES_DIR.glob("*.json")):
+        data = json.loads(path.read_text())
+        results.append((data.get("scheme_id", path.stem), data))
+    return results
+
+
+ALL_SCHEMES = _load_all_schemes()
+
+
+@pytest.mark.parametrize("scheme_id,data", ALL_SCHEMES, ids=[s[0] for s in ALL_SCHEMES])
+def test_loan_range_max_gte_min(scheme_id, data):
+    assert data["loan_range_max"] >= data["loan_range_min"], (
+        f"{scheme_id}: loan_range_max {data['loan_range_max']} < min {data['loan_range_min']}"
+    )
+
+
+@pytest.mark.parametrize("scheme_id,data", ALL_SCHEMES, ids=[s[0] for s in ALL_SCHEMES])
+def test_interest_rate_max_gte_min(scheme_id, data):
+    assert data["interest_rate_max"] >= data["interest_rate_min"], (
+        f"{scheme_id}: interest_rate_max {data['interest_rate_max']} < min {data['interest_rate_min']}"
+    )
+
+
+@pytest.mark.parametrize("scheme_id,data", ALL_SCHEMES, ids=[s[0] for s in ALL_SCHEMES])
+def test_retrieval_text_min_length(scheme_id, data):
+    text = data.get("retrieval_text", "")
+    assert len(text) >= 50, (
+        f"{scheme_id}: retrieval_text only {len(text)} chars (need >= 50)"
+    )
+
+
+@pytest.mark.parametrize("scheme_id,data", ALL_SCHEMES, ids=[s[0] for s in ALL_SCHEMES])
+def test_last_verified_date_format(scheme_id, data):
+    date_str = data.get("last_verified_date", "")
+    assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", date_str), (
+        f"{scheme_id}: last_verified_date '{date_str}' is not YYYY-MM-DD"
+    )

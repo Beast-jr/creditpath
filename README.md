@@ -42,3 +42,6 @@ _Diagram coming soon._
 ## License
 
 MIT
+
+## Knowledge Base
+Locked at 36 validated scheme documents (33/36 URLs verified; 3 confirmed bot-blocked). No additions without full re-validation.
