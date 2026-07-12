@@ -132,3 +132,45 @@ high. URL verification (scripts/verify_urls.py) shows 33/36 URLs return HTTP 200
 the 3 remaining (clcss.dcmsme.gov.in, standupmitra.in, udyamregistration.gov.in)
 are confirmed-correct official URLs that block automated requests with 503/403
 responses but load normally in browsers. These are documented here and accepted.
+# paste adr_007_append.md contents here
+
+---
+
+## ADR-007: Hybrid retrieval scoring (60% semantic, 40% eligibility)
+
+**Status:** Accepted
+**Date:** 2026-07-12
+
+**Context:** After hard eligibility filtering, multiple schemes remain eligible
+for a given profile. We need a ranking function that surfaces the most relevant
+and best-fitting schemes at the top.
+
+**Decision:** Two-component hybrid score:
+- 60% semantic similarity (ChromaDB L2 distance on retrieval_text embeddings)
+- 40% eligibility match score (fraction of 5 soft criteria met)
+
+**Alternatives considered:**
+
+Pure semantic ranking — rejected because two schemes with identical semantic
+similarity scores may differ significantly in fit: one may cover the exact loan
+range sought, the other may not. Semantic similarity alone cannot distinguish this.
+
+Pure rule scoring — rejected because it cannot differentiate between schemes that
+all pass the same soft criteria. Semantic similarity breaks ties in a principled
+way and surfaces schemes whose descriptions match the business's actual context.
+
+Equal 50/50 split — considered but semantic similarity is a richer signal (trained
+on millions of text pairs) while the eligibility score is computed from only 5
+hand-crafted criteria. Giving semantic the larger weight produces better-ordered
+results in manual spot-checks across the 20 golden personas.
+
+**Soft criteria scored (eligibility match score):**
+1. Profile sector in scheme's target_segments
+2. Profile has collateral (bonus even if not required)
+3. GST filing rate >= 80%
+4. Vintage >= 2x the scheme minimum or >= 24 months
+5. Loan amount in lower 75% of scheme range
+
+**Consequences:** Weights are documented constants in ranker.py with an import-time
+assert that they sum to 1.0. Changing the split requires updating one line.
+The formula is verified by a unit test that checks the exact arithmetic.
