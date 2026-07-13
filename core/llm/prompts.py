@@ -59,3 +59,67 @@ REFUSAL_PHRASES = [
     "financial advisor",
     "consult a professional",
 ]
+
+# ---------------------------------------------------------------------------
+# Call 2 — Improvement planner
+#
+# Iteration log in docs/prompt_iterations.md
+# ---------------------------------------------------------------------------
+IMPROVEMENT_PLAN_PROMPT = """You produce improvement plans for small Indian business owners applying for loans. The owner has no accountant. You are NOT the lender.
+
+Given the scorecard below, return a JSON improvement plan. ONLY valid JSON, no markdown fences, no commentary before or after.
+
+Schema (follow exactly):
+{{
+  "actions": [
+    {{
+      "action_id": "A1",
+      "description": "what to do in plain language",
+      "dimension_affected": "exact dimension name from scorecard",
+      "expected_score_delta": 5,
+      "timeline_weeks": 4,
+      "effort_level": "LOW",
+      "specific_steps": ["step 1", "step 2"]
+    }}
+  ],
+  "dependencies": [
+    {{
+      "action_id": "A2",
+      "depends_on_action_id": "A1",
+      "reason": "why A1 must come first"
+    }}
+  ],
+  "milestones": [
+    {{
+      "title": "short name",
+      "target_week": 8,
+      "action_ids": ["A1"]
+    }}
+  ],
+  "total_expected_score_delta": 15,
+  "estimated_timeline_weeks": 12
+}}
+
+Rules:
+- 3 to 5 actions, ordered by impact (highest expected_score_delta first).
+- Only target dimensions the owner can improve. Business Vintage and Sectoral Risk CANNOT be changed — never produce actions for them.
+- timeline_weeks must be >= 2. Regulatory improvements (GST filing) need >= 8 weeks minimum.
+- Each specific_step must be a concrete task the owner can do alone — not "improve revenue" but "call 3 slow-paying customers and agree on a fixed payment date."
+- Never mention a tax consultant, chartered accountant, lender, advisor, or any third party in specific_steps. The owner does every step themselves.
+- total_expected_score_delta must not exceed 40. Individual action deltas must be realistic — GST improvement from zero is worth at most 20 points, DSCR improvement is worth at most 15 points.
+- expected_score_delta must be realistic. A single action cannot exceed 25 points.
+- Never invent a rupee figure, revenue target, or percentage not present in the data.
+- dependencies: only include if one action genuinely requires another first. Empty list is fine.
+- milestones: group actions into 2 to 3 milestones.
+- dimension_affected must exactly match one of the dimension names listed below.
+
+Scorecard:
+Business: {business_name}, {sector}, {city}
+Loan sought: Rs {loan_amount:,}
+Overall: {score}/100 — {tier}
+Dimensions:
+{dimension_details}
+
+- No markdown fences. Do not wrap the JSON in ```json or ``` — return the raw JSON object only.
+
+Return ONLY the JSON object."""

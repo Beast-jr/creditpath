@@ -52,15 +52,15 @@ class GeminiClient:
         """SHA-256 of the prompt — identical prompts hit the same cache entry."""
         return hashlib.sha256(prompt.encode("utf-8")).hexdigest()
 
-    def _call_api(self, prompt: str) -> str:
+    def _call_api(self, prompt: str, timeout: int = REQUEST_TIMEOUT_SECONDS) -> str:
         """One live call to Gemini with a hard timeout. Raises on failure."""
         response = self._model.generate_content(
             prompt,
-            request_options={"timeout": REQUEST_TIMEOUT_SECONDS},
+            request_options={"timeout": timeout},
         )
         return response.text
 
-    def generate(self, prompt: str, schema: dict = None) -> str:
+    def generate(self, prompt: str, schema: dict = None, timeout: int = REQUEST_TIMEOUT_SECONDS) -> str:
         """Return Gemini's response for a prompt, using cache and retrying on 429.
 
         If schema is provided, JSON-schema enforcement is appended to the prompt.
@@ -75,13 +75,19 @@ class GeminiClient:
         last_error = None
         for attempt in range(MAX_RETRIES):
             try:
-                response = self._call_api(prompt)
+                response = self._call_api(prompt, timeout=timeout)
                 self._cache[key] = {"response": response, "timestamp": time.time()}
                 self._save_cache()
                 return response
             except Exception as e:
                 last_error = e
                 if "429" not in str(e):
+                    raise
+                # A daily-quota 429 cannot be fixed by a short backoff — only a
+                # daily reset or billing change helps. Retrying wastes quota on
+                # calls that are guaranteed to fail. Fail fast on this subtype;
+                # keep backoff+retry for genuine transient per-minute 429s.
+                if "PerDay" in str(e):
                     raise
                 wait = min(BACKOFF_BASE * (2 ** attempt) + random.uniform(0, 1), BACKOFF_MAX_WAIT)
                 time.sleep(wait)
