@@ -26,31 +26,25 @@ GST compliance, vintage, and loan amount fit.
 ## Analysis
 
 **Hit rate (+27.5pp):** Dense-only misses 11 of 40 queries entirely. These failures
-cluster around state-specific schemes (rajasthan_msme_loan, mp_mukhyamantri_udyam,
-karnataka_sc_st) where the retrieval_text is semantically similar across schemes
-but eligibility criteria differ sharply. The eligibility score component correctly
-surfaces the geographically relevant scheme when semantic similarity alone cannot
-distinguish.
+cluster around state-specific schemes where retrieval_text is semantically similar
+across schemes but eligibility criteria differ sharply. The eligibility score
+component correctly surfaces the geographically relevant scheme when semantic
+similarity alone cannot distinguish.
 
 **Precision@5 (+20pp):** Dense-only returns many semantically plausible but
-ineligible schemes — schemes whose retrieval_text mentions the right sector but
-whose loan range or vintage requirements exclude the profile. The 0.4 eligibility
-weight penalises these, pushing genuinely eligible schemes higher.
+ineligible schemes whose loan range or vintage requirements exclude the profile.
+The 0.4 eligibility weight penalises these, pushing genuinely eligible schemes higher.
 
-**Mean Reciprocal Rank (+28.3pp):** Even when dense-only retrieves the correct
-scheme, it tends to rank it lower. MRR of 0.39 means the first correct scheme
-appears on average at rank 2.6. Hybrid's MRR of 0.67 means it appears at rank
-1.5 on average — nearly always in the top 2.
+**Mean Reciprocal Rank (+28.3pp):** Dense-only MRR of 0.39 means the first correct
+scheme appears on average at rank 2.6. Hybrid MRR of 0.67 means it appears at rank
+1.5 on average, nearly always in the top 2.
 
 **Absent violation rate (-2.5pp):** Dense-only surfaces at least one banned scheme
-in 1 of 40 queries. Hybrid eliminates this entirely. The eligibility weighting
-actively suppresses schemes that are semantically plausible but factually
-inappropriate for the profile.
+in 1 of 40 queries. Hybrid eliminates this entirely.
 
 ## Conclusion
 
 The 60/40 hybrid weighting (ADR-007) is validated. The eligibility component
 provides meaningful signal beyond pure semantic similarity, particularly for
 state-specific schemes and profiles with hard eligibility constraints.
-The dense-only baseline is a reasonable fallback but the hybrid approach is
-clearly superior across all four metrics.
+Hybrid is superior across all four metrics.

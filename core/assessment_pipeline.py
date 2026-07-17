@@ -94,7 +94,18 @@ class AssessmentPipeline:
         )
 
         # Step 8 — log (never crashes pipeline)
-        event = AssessmentEvent(
+        event = AssessmentEvent(PYTHONPATH=. python -c "
+import json
+from core.recommendation.engine import RecommendationEngine
+from core.schema import BusinessProfile
+personas = json.load(open('tests/fixtures/golden_personas.json'))
+engine = RecommendationEngine()
+for i, p in enumerate(personas):
+    profile = BusinessProfile(**{k: v for k, v in p.items() if k != 'expected_tier'})
+    result = engine.recommend(profile, top_k=5)
+    ids = [m.scheme.scheme_id for m in result.matches]
+    print(i, p['business_name'], '->', ids)
+" 2>/dev/null
             event_id=str(uuid.uuid4()),
             timestamp=datetime.now(timezone.utc).isoformat(),
             profile=profile,
