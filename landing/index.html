@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CreditPath — Loan Readiness for Indian MSMEs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .gradient-bg { background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%); }
+    .card-hover { transition: transform 0.2s, box-shadow 0.2s; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.12); }
+  </style>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+  <!-- Hero -->
+  <section class="gradient-bg text-white py-24 px-6 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+        Know Your Loan Readiness.<br/>Find the Right Government Scheme.
+      </h1>
+      <p class="text-xl text-blue-100 mb-10">
+        CreditPath scores your business across six financial dimensions and matches you
+        to government financing schemes — in under two minutes.
+      </p>
+      <a href="https://creditpath.streamlit.app" target="_blank"
+         class="inline-block bg-white text-blue-700 font-bold text-lg px-10 py-4 rounded-full shadow-lg hover:bg-blue-50 transition">
+        Check Your Loan Readiness &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- Problem -->
+  <section class="py-20 px-6 bg-gray-50">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 text-gray-900">The MSME Credit Gap</h2>
+      <p class="text-lg text-gray-600 leading-relaxed">
+        Over 63 million MSMEs in India contribute 30% of GDP, yet most small business
+        owners don't know their loan eligibility or which government schemes apply to them.
+        Lack of financial awareness — not lack of creditworthiness — keeps them from
+        accessing the capital they need to grow.
+      </p>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-14 text-gray-900">How It Works</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="card-hover bg-white border border-gray-200 rounded-2xl p-8 text-center shadow-sm">
+          <div class="text-5xl mb-4">📋</div>
+          <h3 class="text-xl font-bold mb-3 text-gray-900">1. Fill Your Profile</h3>
+          <p class="text-gray-600">
+            Enter basic business details — revenue, GST history, existing loans,
+            and collateral. No documents needed.
+          </p>
+        </div>
+
+        <div class="card-hover bg-white border border-gray-200 rounded-2xl p-8 text-center shadow-sm">
+          <div class="text-5xl mb-4">📊</div>
+          <h3 class="text-xl font-bold mb-3 text-gray-900">2. Get Your Score</h3>
+          <p class="text-gray-600">
+            CreditPath scores your business across six financial dimensions and
+            generates a plain-English explanation with a priority action to take.
+          </p>
+        </div>
+
+        <div class="card-hover bg-white border border-gray-200 rounded-2xl p-8 text-center shadow-sm">
+          <div class="text-5xl mb-4">🏛️</div>
+          <h3 class="text-xl font-bold mb-3 text-gray-900">3. Discover Schemes</h3>
+          <p class="text-gray-600">
+            See which of 36 central and state government schemes you are eligible for,
+            ranked by how well they match your profile.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="gradient-bg py-20 px-6 text-center text-white">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Ready to Check Your Loan Readiness?</h2>
+      <p class="text-blue-100 text-lg mb-10">
+        Free to use. No login required. Results in under two minutes.
+      </p>
+      <a href="https://creditpath.streamlit.app" target="_blank"
+         class="inline-block bg-white text-blue-700 font-bold text-lg px-10 py-4 rounded-full shadow-lg hover:bg-blue-50 transition">
+        Try CreditPath &rarr;
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-10 px-6 text-center">
+    <div class="max-w-3xl mx-auto">
+      <p class="mb-3">
+        <a href="https://github.com/Beast-jr/creditpath" target="_blank"
+           class="text-blue-400 hover:text-blue-300 transition">
+          GitHub Repository
+        </a>
+      </p>
+      <p class="text-sm text-gray-500">
+        CreditPath is an orientation tool, not financial advice.
+        Scores and scheme recommendations are indicative only.
+        Always verify eligibility directly with the scheme administrator before applying.
+      </p>
+      <p class="text-sm text-gray-600 mt-4">&copy; 2026 CreditPath</p>
+    </div>
+  </footer>
+
+</body>
+</html>
