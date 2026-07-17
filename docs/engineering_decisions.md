@@ -174,3 +174,40 @@ results in manual spot-checks across the 20 golden personas.
 **Consequences:** Weights are documented constants in ranker.py with an import-time
 assert that they sum to 1.0. Changing the split requires updating one line.
 The formula is verified by a unit test that checks the exact arithmetic.
+
+
+## ADR-009: FastAPI as the API layer
+
+**Date:** 2026-07-17
+**Status:** Accepted
+
+### Context
+CreditPath needs an HTTP API layer so the Streamlit frontend can call core/ business
+logic over the network. The frontend runs on Streamlit Cloud, the backend on Railway
+— two separate processes that communicate via HTTP.
+
+### Decision
+Use FastAPI with four endpoints:
+- POST /assess — full pipeline (scorecard + LLM + recommendations + cluster)
+- POST /recommend — recommendations only (no LLM)
+- POST /whatif — scorecard + recommendations (no LLM, fast recalculation)
+- GET /health — Railway liveness check
+
+### Key design rules
+1. Route handlers contain ZERO business logic — deserialize, call core/, serialize.
+2. All heavy components (AssessmentPipeline, RecommendationEngine) initialized ONCE
+   at startup via FastAPI lifespan, not per request.
+3. /whatif deliberately skips LLM calls — fast response, no quota burned.
+4. CORS configured for Streamlit Cloud origin at the API layer.
+
+### Why FastAPI over Flask/Django
+- Native async support matches Railway deployment model
+- Pydantic validation built in — request validation is free
+- Auto-generated OpenAPI docs at /docs — useful for frontend development
+- FastAPI lifespan pattern is the cleanest way to initialize singletons
+
+### Why a separate api/schemas.py from core/schema.py
+core/schema.py dataclasses are internal domain objects. api/schemas.py Pydantic
+models are the public API contract. Keeping them separate means the API contract
+can evolve independently of internal representations, and validation rules
+(min_length, ge, le) live at the boundary where they belong.
