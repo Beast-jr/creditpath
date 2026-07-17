@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from api.dependencies import set_assessment_pipeline, set_recommendation_engine
+from api.routes import assessment, recommendation, whatif
 from core.assessment_pipeline import AssessmentPipeline
 from core.recommendation.engine import RecommendationEngine
 
@@ -37,8 +38,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(assessment.router)
+app.include_router(recommendation.router)
+app.include_router(whatif.router)
+
 
 @app.get("/health", tags=["health"])
 async def health():
-    """Liveness check for Railway."""
     return {"status": "ok", "version": "1.0.0"}
