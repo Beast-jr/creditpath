@@ -1,0 +1,362 @@
+[
+  {
+    "persona_index": 0,
+    "business_name": "Kumar Auto Spares",
+    "tier": "NEARLY_READY",
+    "expected_dimensions": [
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Cash Flow Consistency",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 1,
+    "business_name": "Sunrise Pharmacy",
+    "tier": "LOAN_READY",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 30,
+    "max_timeline_weeks": 16
+  },
+  {
+    "persona_index": 2,
+    "business_name": "Corner Tea Stall",
+    "tier": "NOT_READY",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 3,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 3,
+    "business_name": "Meena Textiles",
+    "tier": "NEARLY_READY",
+    "expected_dimensions": [
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Cash Flow Consistency",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 4,
+    "business_name": "Green Farm Produce",
+    "tier": "LOAN_READY",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 30,
+    "max_timeline_weeks": 16
+  },
+  {
+    "persona_index": 5,
+    "business_name": "BuildRight Construction",
+    "tier": "NEEDS_WORK",
+    "expected_dimensions": [
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Cash Flow Consistency",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 6,
+    "business_name": "Spice Route Restaurant",
+    "tier": "NEEDS_WORK",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 7,
+    "business_name": "TechFix Services",
+    "tier": "LOAN_READY",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 16
+  },
+  {
+    "persona_index": 8,
+    "business_name": "Fresh Mart Grocery",
+    "tier": "LOAN_READY",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 30,
+    "max_timeline_weeks": 16
+  },
+  {
+    "persona_index": 9,
+    "business_name": "Nova Manufacturing",
+    "tier": "NEARLY_READY",
+    "expected_dimensions": [
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Cash Flow Consistency",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 10,
+    "business_name": "Startup Cafe",
+    "tier": "NOT_READY",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 3,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 11,
+    "business_name": "Reliable Retail",
+    "tier": "NEARLY_READY",
+    "expected_dimensions": [
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Cash Flow Consistency",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 12,
+    "business_name": "Apex Pharma Distributors",
+    "tier": "LOAN_READY",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 30,
+    "max_timeline_weeks": 16
+  },
+  {
+    "persona_index": 13,
+    "business_name": "Quantum Widgets",
+    "tier": "NEARLY_READY",
+    "expected_dimensions": [
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Cash Flow Consistency",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 14,
+    "business_name": "Coastal Fisheries",
+    "tier": "NEARLY_READY",
+    "expected_dimensions": [
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Cash Flow Consistency",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 15,
+    "business_name": "Metro Hardware",
+    "tier": "NEEDS_WORK",
+    "expected_dimensions": [
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Cash Flow Consistency",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 16,
+    "business_name": "Elite Interiors",
+    "tier": "NEEDS_WORK",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 17,
+    "business_name": "Daily Needs Store",
+    "tier": "LOAN_READY",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 30,
+    "max_timeline_weeks": 16
+  },
+  {
+    "persona_index": 18,
+    "business_name": "Prime Logistics",
+    "tier": "NEARLY_READY",
+    "expected_dimensions": [
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Cash Flow Consistency",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  },
+  {
+    "persona_index": 19,
+    "business_name": "New Leaf Nursery",
+    "tier": "NEEDS_WORK",
+    "expected_dimensions": [
+      "Cash Flow Consistency",
+      "Debt Service Coverage Ratio",
+      "GST Filing Regularity",
+      "Collateral Availability"
+    ],
+    "forbidden_dimensions": [
+      "Business Vintage",
+      "Sectoral Risk"
+    ],
+    "min_actions": 2,
+    "max_total_delta": 40,
+    "max_timeline_weeks": 26
+  }
+]
