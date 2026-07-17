@@ -1,0 +1,562 @@
+[
+  {
+    "id": "gt_00a",
+    "persona_index": 0,
+    "business_name": "Kumar Auto Spares",
+    "query": "auto parts retail business Telangana 3 years old needs working capital loan",
+    "expected_scheme_ids": [
+      "pmmy_mudra",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "mp_mukhyamantri_udyam"
+    ]
+  },
+  {
+    "id": "gt_00b",
+    "persona_index": 0,
+    "business_name": "Kumar Auto Spares",
+    "query": "small automotive spare parts shop Telangana loan without collateral",
+    "expected_scheme_ids": [
+      "sidbi_smile",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "karnataka_udyog_mitra",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_01a",
+    "persona_index": 1,
+    "business_name": "Sunrise Pharmacy",
+    "query": "pharmacy healthcare business Maharashtra strong financials term loan",
+    "expected_scheme_ids": [
+      "sidbi_smile",
+      "msmfc"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "up_yuva_swarozgar"
+    ]
+  },
+  {
+    "id": "gt_01b",
+    "persona_index": 1,
+    "business_name": "Sunrise Pharmacy",
+    "query": "established medical store Maharashtra loan ready needs expansion capital",
+    "expected_scheme_ids": [
+      "pmmy_mudra",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "rajasthan_msme_loan",
+      "mp_mukhyamantri_udyam"
+    ]
+  },
+  {
+    "id": "gt_02a",
+    "persona_index": 2,
+    "business_name": "Corner Tea Stall",
+    "query": "small tea stall food business Tamil Nadu very small loan working capital",
+    "expected_scheme_ids": [
+      "pmmy_mudra",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "ksfc_term_loan"
+    ]
+  },
+  {
+    "id": "gt_02b",
+    "persona_index": 2,
+    "business_name": "Corner Tea Stall",
+    "query": "micro food business Tamil Nadu no collateral street vendor loan",
+    "expected_scheme_ids": [
+      "mudra_shishu",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "stand_up_india",
+      "sidbi_green_finance"
+    ]
+  },
+  {
+    "id": "gt_03a",
+    "persona_index": 3,
+    "business_name": "Meena Textiles",
+    "query": "textile manufacturing business Karnataka women entrepreneur loan",
+    "expected_scheme_ids": [
+      "mudra_tarun",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "mp_mukhyamantri_udyam"
+    ]
+  },
+  {
+    "id": "gt_03b",
+    "persona_index": 3,
+    "business_name": "Meena Textiles",
+    "query": "small textile unit Karnataka working capital term loan MSME",
+    "expected_scheme_ids": [
+      "sidbi_srijan",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "rajasthan_msme_loan",
+      "up_yuva_swarozgar"
+    ]
+  },
+  {
+    "id": "gt_04a",
+    "persona_index": 4,
+    "business_name": "Green Farm Produce",
+    "query": "grocery farm produce business Maharashtra strong revenue collateral available",
+    "expected_scheme_ids": [
+      "pmmy_mudra",
+      "msmfc"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_04b",
+    "persona_index": 4,
+    "business_name": "Green Farm Produce",
+    "query": "established grocery Maharashtra expansion loan with assets",
+    "expected_scheme_ids": [
+      "stand_up_india",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "mp_mukhyamantri_udyam",
+      "up_yuva_swarozgar"
+    ]
+  },
+  {
+    "id": "gt_05a",
+    "persona_index": 5,
+    "business_name": "BuildRight Construction",
+    "query": "construction business Haryana needs work loan without collateral",
+    "expected_scheme_ids": [
+      "sidbi_smile",
+      "cgtmse"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_05b",
+    "persona_index": 5,
+    "business_name": "BuildRight Construction",
+    "query": "small construction contractor Haryana working capital MSME scheme",
+    "expected_scheme_ids": [
+      "sidbi_srijan",
+      "pmegp"
+    ],
+    "expected_absent_ids": [
+      "ksfc_term_loan",
+      "mp_mukhyamantri_udyam"
+    ]
+  },
+  {
+    "id": "gt_06a",
+    "persona_index": 6,
+    "business_name": "Spice Route Restaurant",
+    "query": "restaurant hospitality business Kerala working capital loan needs work",
+    "expected_scheme_ids": [
+      "mudra_tarun",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_06b",
+    "persona_index": 6,
+    "business_name": "Spice Route Restaurant",
+    "query": "small restaurant Kerala food services MSME loan no collateral",
+    "expected_scheme_ids": [
+      "cgtmse",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "ksfc_term_loan",
+      "up_yuva_swarozgar"
+    ]
+  },
+  {
+    "id": "gt_07a",
+    "persona_index": 7,
+    "business_name": "TechFix Services",
+    "query": "technology services business Karnataka loan ready strong financials",
+    "expected_scheme_ids": [
+      "sidbi_srijan",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "rajasthan_msme_loan",
+      "mp_mukhyamantri_udyam"
+    ]
+  },
+  {
+    "id": "gt_07b",
+    "persona_index": 7,
+    "business_name": "TechFix Services",
+    "query": "IT services repair Karnataka established business expansion loan",
+    "expected_scheme_ids": [
+      "karnataka_sc_st",
+      "pmegp"
+    ],
+    "expected_absent_ids": [
+      "msmfc",
+      "assam_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_08a",
+    "persona_index": 8,
+    "business_name": "Fresh Mart Grocery",
+    "query": "grocery retail Andhra Pradesh loan ready needs expansion capital",
+    "expected_scheme_ids": [
+      "pmmy_mudra",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_08b",
+    "persona_index": 8,
+    "business_name": "Fresh Mart Grocery",
+    "query": "established grocery store Andhra Pradesh collateral available term loan",
+    "expected_scheme_ids": [
+      "stand_up_india",
+      "cgtmse"
+    ],
+    "expected_absent_ids": [
+      "mp_mukhyamantri_udyam",
+      "ksfc_term_loan"
+    ]
+  },
+  {
+    "id": "gt_09a",
+    "persona_index": 9,
+    "business_name": "Nova Manufacturing",
+    "query": "manufacturing unit Tamil Nadu nearly ready working capital term loan",
+    "expected_scheme_ids": [
+      "sidbi_srijan",
+      "pmegp"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_09b",
+    "persona_index": 9,
+    "business_name": "Nova Manufacturing",
+    "query": "small manufacturer Tamil Nadu green technology loan MSME",
+    "expected_scheme_ids": [
+      "stand_up_india",
+      "sidbi_green_finance"
+    ],
+    "expected_absent_ids": [
+      "mp_mukhyamantri_udyam",
+      "assam_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_10a",
+    "persona_index": 10,
+    "business_name": "Startup Cafe",
+    "query": "new cafe hospitality Madhya Pradesh not ready micro loan",
+    "expected_scheme_ids": [
+      "mp_mukhyamantri_udyam",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_10b",
+    "persona_index": 10,
+    "business_name": "Startup Cafe",
+    "query": "small restaurant startup Madhya Pradesh no collateral working capital",
+    "expected_scheme_ids": [
+      "cgtmse",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "ksfc_term_loan",
+      "stand_up_india"
+    ]
+  },
+  {
+    "id": "gt_11a",
+    "persona_index": 11,
+    "business_name": "Reliable Retail",
+    "query": "retail shop Rajasthan nearly ready state scheme loan",
+    "expected_scheme_ids": [
+      "rajasthan_msme_loan",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "mp_mukhyamantri_udyam"
+    ]
+  },
+  {
+    "id": "gt_11b",
+    "persona_index": 11,
+    "business_name": "Reliable Retail",
+    "query": "established retail Rajasthan expansion working capital MSME",
+    "expected_scheme_ids": [
+      "stand_up_india",
+      "sidbi_srijan"
+    ],
+    "expected_absent_ids": [
+      "assam_msme_loan",
+      "ksfc_term_loan"
+    ]
+  },
+  {
+    "id": "gt_12a",
+    "persona_index": 12,
+    "business_name": "Apex Pharma Distributors",
+    "query": "pharma distribution Gujarat loan ready healthcare MSME expansion",
+    "expected_scheme_ids": [
+      "sidbi_smile",
+      "sidbi_srijan"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_12b",
+    "persona_index": 12,
+    "business_name": "Apex Pharma Distributors",
+    "query": "established pharmacy distributor Gujarat collateral available term loan",
+    "expected_scheme_ids": [
+      "stand_up_india",
+      "cgtmse"
+    ],
+    "expected_absent_ids": [
+      "mp_mukhyamantri_udyam",
+      "assam_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_13a",
+    "persona_index": 13,
+    "business_name": "Quantum Widgets",
+    "query": "small manufacturing Uttar Pradesh nearly ready working capital loan",
+    "expected_scheme_ids": [
+      "sidbi_smile",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_13b",
+    "persona_index": 13,
+    "business_name": "Quantum Widgets",
+    "query": "widget manufacturer Uttar Pradesh state scheme youth entrepreneur",
+    "expected_scheme_ids": [
+      "up_yuva_swarozgar",
+      "sidbi_srijan"
+    ],
+    "expected_absent_ids": [
+      "ksfc_term_loan",
+      "mp_mukhyamantri_udyam"
+    ]
+  },
+  {
+    "id": "gt_14a",
+    "persona_index": 14,
+    "business_name": "Coastal Fisheries",
+    "query": "fisheries food business Karnataka term loan nearly ready",
+    "expected_scheme_ids": [
+      "ksfc_term_loan",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "rajasthan_msme_loan",
+      "mp_mukhyamantri_udyam"
+    ]
+  },
+  {
+    "id": "gt_14b",
+    "persona_index": 14,
+    "business_name": "Coastal Fisheries",
+    "query": "coastal food processing Karnataka MSME loan collateral available",
+    "expected_scheme_ids": [
+      "sidbi_smile",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "assam_msme_loan",
+      "up_yuva_swarozgar"
+    ]
+  },
+  {
+    "id": "gt_15a",
+    "persona_index": 15,
+    "business_name": "Metro Hardware",
+    "query": "hardware retail Uttar Pradesh needs work small loan no collateral",
+    "expected_scheme_ids": [
+      "mudra_tarun",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "ksfc_term_loan"
+    ]
+  },
+  {
+    "id": "gt_15b",
+    "persona_index": 15,
+    "business_name": "Metro Hardware",
+    "query": "retail hardware shop Uttar Pradesh state scheme working capital",
+    "expected_scheme_ids": [
+      "up_yuva_swarozgar",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "rajasthan_msme_loan",
+      "assam_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_16a",
+    "persona_index": 16,
+    "business_name": "Elite Interiors",
+    "query": "interior construction services Tamil Nadu needs work MSME loan",
+    "expected_scheme_ids": [
+      "sidbi_smile",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_16b",
+    "persona_index": 16,
+    "business_name": "Elite Interiors",
+    "query": "construction interiors Tamil Nadu working capital no collateral",
+    "expected_scheme_ids": [
+      "sidbi_srijan",
+      "rbi_priority_sector_msme"
+    ],
+    "expected_absent_ids": [
+      "mp_mukhyamantri_udyam",
+      "ksfc_term_loan"
+    ]
+  },
+  {
+    "id": "gt_17a",
+    "persona_index": 17,
+    "business_name": "Daily Needs Store",
+    "query": "grocery store Madhya Pradesh loan ready state scheme",
+    "expected_scheme_ids": [
+      "mp_mukhyamantri_udyam",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_17b",
+    "persona_index": 17,
+    "business_name": "Daily Needs Store",
+    "query": "established grocery Madhya Pradesh expansion working capital MSME",
+    "expected_scheme_ids": [
+      "rbi_priority_sector_msme",
+      "cgtmse"
+    ],
+    "expected_absent_ids": [
+      "assam_msme_loan",
+      "ksfc_term_loan"
+    ]
+  },
+  {
+    "id": "gt_18a",
+    "persona_index": 18,
+    "business_name": "Prime Logistics",
+    "query": "logistics services Maharashtra nearly ready working capital loan",
+    "expected_scheme_ids": [
+      "pmmy_mudra",
+      "sidbi_smile"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_18b",
+    "persona_index": 18,
+    "business_name": "Prime Logistics",
+    "query": "transport logistics Maharashtra collateral available expansion term loan",
+    "expected_scheme_ids": [
+      "stand_up_india",
+      "pmegp"
+    ],
+    "expected_absent_ids": [
+      "mp_mukhyamantri_udyam",
+      "assam_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_19a",
+    "persona_index": 19,
+    "business_name": "New Leaf Nursery",
+    "query": "nursery grocery Uttarakhand needs work small loan no collateral",
+    "expected_scheme_ids": [
+      "mudra_kishore",
+      "pmmy_mudra"
+    ],
+    "expected_absent_ids": [
+      "karnataka_sc_st",
+      "rajasthan_msme_loan"
+    ]
+  },
+  {
+    "id": "gt_19b",
+    "persona_index": 19,
+    "business_name": "New Leaf Nursery",
+    "query": "small nursery Uttarakhand agriculture related MSME scheme",
+    "expected_scheme_ids": [
+      "rbi_priority_sector_msme",
+      "cgtmse"
+    ],
+    "expected_absent_ids": [
+      "mp_mukhyamantri_udyam",
+      "ksfc_term_loan"
+    ]
+  }
+]
