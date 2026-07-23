@@ -26,3 +26,8 @@ notebooks/.ipynb_checkpoints/
 
 # OS
 .DS_Store
+
+# Generated artifacts
+data/vectorstore/
+data/assessments.db
+data/cache/

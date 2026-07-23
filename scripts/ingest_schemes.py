@@ -7,8 +7,9 @@ Usage: python scripts/ingest_schemes.py
 from pathlib import Path
 from core.rag.ingestor import ingest
 
-SCHEMES_DIR = Path("data/schemes")
-VECTORSTORE_PATH = Path("data/vectorstore")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+SCHEMES_DIR = PROJECT_ROOT / "data" / "schemes"
+VECTORSTORE_PATH = PROJECT_ROOT / "data" / "vectorstore"
 
 if __name__ == "__main__":
     print("Ingesting scheme chunks into ChromaDB...")

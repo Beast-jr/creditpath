@@ -15,7 +15,7 @@ from core.recommendation.engine import RecommendationEngine
 from core.rag.chat_service import ChatService
 from core.llm.client import GeminiClient
 
-VECTORSTORE_PATH = Path("data/vectorstore")
+VECTORSTORE_PATH = Path(__file__).resolve().parent.parent / "data" / "vectorstore"
 
 ALLOWED_ORIGINS = [
     "http://localhost:8501",
