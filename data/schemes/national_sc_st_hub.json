@@ -3,7 +3,11 @@
   "name": "National Scheduled Caste and Scheduled Tribe Hub (NSSH)",
   "administered_by": "Ministry of Micro, Small and Medium Enterprises",
   "scheme_type": "subsidy",
-  "target_segments": ["sc_st", "no_collateral", "first_generation"],
+  "target_segments": [
+    "sc_st",
+    "no_collateral",
+    "first_generation"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 2500000,
   "interest_rate_min": 0.0,
@@ -16,5 +20,19 @@
   "eligibility_geographic_restriction": "",
   "retrieval_text": "Support package for SC/ST entrepreneurs administered through the National SC-ST Hub (FY2021-22 to FY2025-26, total outlay Rs 588 crore): a 25% capital subsidy, capped at Rs 25 lakh, on bank-financed plant, machinery, and equipment under the Special Credit Linked Capital Subsidy Scheme (SCLCSS); reimbursement of up to 80% or Rs 1 lakh, whichever is less, of bank loan processing charges; reimbursement of up to 80% or Rs 1 lakh of Performance Bank Guarantee charges for government tender participation; course-fee reimbursement for management training at NIRF-ranked institutes; and membership-fee reimbursement for government e-commerce portals such as GeM, e-Khadi, and Tribes India. This is a subsidy and reimbursement package layered on top of a separately obtained bank loan, not a direct loan product in itself.",
   "official_url": "https://www.scsthub.in/",
-  "last_verified_date": "2026-07-10"
+  "last_verified_date": "2026-07-10",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "SC/ST Caste Certificate of the Proprietor/Major Shareholder",
+    "PAN Card of the Enterprise/Proprietor",
+    "Aadhaar Card of the Proprietor/Key Promoter",
+    "Bank Statement of the Business (most recent 6 months)",
+    "Business Address Proof (e.g., Electricity Bill, Rent Agreement)",
+    "Proof of Constitution of Business (e.g., Partnership Deed, MOA/AOA)",
+    "Project Report/Business Plan",
+    "Bank Loan Sanction Letter (for bank-financed components)",
+    "Quotation/Proforma Invoice for Plant, Machinery, and Equipment",
+    "Passport-size photograph of the Proprietor/Applicant",
+    "Cancelled Cheque of the Business Bank Account"
+  ]
 }

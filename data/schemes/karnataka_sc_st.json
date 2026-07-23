@@ -3,7 +3,14 @@
   "name": "Karnataka SC/ST Entrepreneurship Development Scheme (KSSDCL)",
   "administered_by": "Karnataka State SC/ST Development Corporation Limited (KSSDCL)",
   "scheme_type": "composite",
-  "target_segments": ["sc_st", "micro", "first_generation", "manufacturing", "services", "trading"],
+  "target_segments": [
+    "sc_st",
+    "micro",
+    "first_generation",
+    "manufacturing",
+    "services",
+    "trading"
+  ],
   "loan_range_min": 100000,
   "loan_range_max": 1000000,
   "interest_rate_min": 4,
@@ -16,5 +23,19 @@
   "eligibility_geographic_restriction": "Karnataka",
   "retrieval_text": "KSSDCL provides composite term loans at concessional interest rates of 4-6% per annum to Scheduled Caste and Scheduled Tribe entrepreneurs in Karnataka for setting up or expanding micro enterprises in manufacturing, services, and trading. Loans from Rs 1 lakh to Rs 10 lakh are available without collateral. A capital subsidy of up to 30% of the project cost is also available for eligible applicants. The applicant must be a permanent resident of Karnataka, belong to a notified SC or ST community, and must not have previously availed benefits under any similar state or central self-employment scheme.",
   "official_url": "https://msme.gov.in/",
-  "last_verified_date": "2026-07-12"
+  "last_verified_date": "2026-07-12",
+  "documents_required": [
+    "Aadhaar Card",
+    "PAN Card",
+    "SC/ST Caste Certificate",
+    "Karnataka Domicile Certificate",
+    "Udyam Registration Certificate",
+    "Project Report / Business Plan",
+    "Bank Statements (last 6 months)",
+    "Business Address Proof (e.g., Rent Agreement, Lease Deed, Utility Bill)",
+    "Passport-sized Photographs",
+    "Self-declaration of not having availed similar state/central schemes",
+    "Quotations for Machinery/Equipment/Raw Materials",
+    "Income Tax Returns (if an existing business)"
+  ]
 }

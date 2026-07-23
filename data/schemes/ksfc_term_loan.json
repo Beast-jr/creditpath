@@ -3,7 +3,15 @@
   "name": "Karnataka State Financial Corporation (KSFC) Term Loan",
   "administered_by": "Karnataka State Financial Corporation (KSFC)",
   "scheme_type": "term_loan",
-  "target_segments": ["micro", "small", "medium", "manufacturing", "services", "women", "sc_st"],
+  "target_segments": [
+    "micro",
+    "small",
+    "medium",
+    "manufacturing",
+    "services",
+    "women",
+    "sc_st"
+  ],
   "loan_range_min": 1000000,
   "loan_range_max": 100000000,
   "interest_rate_min": 9,
@@ -16,5 +24,19 @@
   "eligibility_geographic_restriction": "Karnataka",
   "retrieval_text": "KSFC provides term loans from Rs 10 lakh to Rs 10 crore at interest rates of 9-12% per annum to micro, small and medium enterprises in manufacturing, services, and trade sectors across Karnataka's 29 branch offices. Women entrepreneurs receive a 1% interest rebate under a dedicated KSWDC-backed subvention scheme; SC/ST entrepreneurs receive an additional 1% rebate. Margin money requirement is 20% in backward districts and 22.5% elsewhere. Repayment period is up to 10 years including a moratorium of up to 2 years. Collateral is mandatory. Processing fee is 1% of the loan amount.",
   "official_url": "https://ksfc.karnataka.gov.in/info-2/Schemes/en",
-  "last_verified_date": "2026-07-12"
+  "last_verified_date": "2026-07-12",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "PAN Card (Enterprise and Promoters/Directors)",
+    "Aadhaar Card (Proprietor/Partners/Directors)",
+    "Bank Statements (last 12 months)",
+    "Audited Financial Statements (Profit & Loss, Balance Sheet for last 3 years)",
+    "Project Report with Financial Projections",
+    "Collateral Property Documents (e.g., Sale Deed, EC, Tax Paid Receipt)",
+    "Property Valuation Report (for collateral)",
+    "GST Registration Certificate (if applicable)",
+    "Memorandum of Association & Articles of Association / Partnership Deed / Proprietorship Declaration",
+    "Caste Certificate (for SC/ST entrepreneurs)",
+    "Proof of Woman Entrepreneur Status"
+  ]
 }

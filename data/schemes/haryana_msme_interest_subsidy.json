@@ -3,7 +3,14 @@
   "name": "Haryana MSME Interest Subsidy Scheme",
   "administered_by": "Department of Industries and Commerce, Government of Haryana",
   "scheme_type": "subsidy",
-  "target_segments": ["micro", "small", "medium", "manufacturing", "sc_st", "women"],
+  "target_segments": [
+    "micro",
+    "small",
+    "medium",
+    "manufacturing",
+    "sc_st",
+    "women"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 0,
   "interest_rate_min": 0,
@@ -11,10 +18,26 @@
   "collateral_required": false,
   "eligibility_vintage_months_min": 0,
   "eligibility_gst_required": false,
-  "eligibility_sectors_included": ["manufacturing"],
+  "eligibility_sectors_included": [
+    "manufacturing"
+  ],
   "eligibility_sectors_excluded": [],
   "eligibility_geographic_restriction": "Haryana",
   "retrieval_text": "The Haryana government provides interest subsidy to new and expanding manufacturing MSMEs on term loans availed from banks and financial institutions under the Haryana Enterprises and Employment Policy. Subsidy rates and caps vary by enterprise category and district. SC/ST and women entrepreneurs receive enhanced subsidy rates. The scheme has no direct loan component; it reimburses a portion of the interest paid on the underlying term loan, credited to the borrower's account after verification of timely repayment. Apply through the Haryana Udhyam Memorandum portal or the local District Industries Centre.",
   "official_url": "https://haryanaindustries.gov.in/",
-  "last_verified_date": "2026-07-12"
+  "last_verified_date": "2026-07-12",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "PAN Card of the Enterprise",
+    "Term Loan Sanction Letter from Bank/Financial Institution",
+    "Term Loan Account Statement (detailing interest payments and repayments)",
+    "Bank Statements of the MSME's Operating Account (6-12 months)",
+    "Interest Paid Certificate from Bank/Financial Institution (for the claim period)",
+    "Proof of Business Address in Haryana (e.g., rent agreement, property deed, utility bill)",
+    "GST Registration Certificate (if applicable)",
+    "Caste Certificate of Proprietor/Partners/Directors (for SC/ST entrepreneurs, if applicable)",
+    "Proof of Woman Entrepreneurship (e.g., Aadhaar/PAN of woman proprietor/majority woman ownership, if applicable)",
+    "Project Report / Detailed Project Report (DPR) of the project financed by the term loan",
+    "Factory License / Industrial Approval / NOC from Haryana State Pollution Control Board (if applicable)"
+  ]
 }

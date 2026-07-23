@@ -3,7 +3,13 @@
   "name": "Pradhan Mantri Mudra Yojana – Tarun",
   "administered_by": "Department of Financial Services, Ministry of Finance (MUDRA Ltd. / NCGTC)",
   "scheme_type": "term_loan",
-  "target_segments": ["small", "no_collateral", "manufacturing", "trading", "services"],
+  "target_segments": [
+    "small",
+    "no_collateral",
+    "manufacturing",
+    "trading",
+    "services"
+  ],
   "loan_range_min": 500001,
   "loan_range_max": 1000000,
   "interest_rate_min": 12.0,
@@ -16,5 +22,19 @@
   "eligibility_geographic_restriction": "",
   "retrieval_text": "Growth-stage collateral-free loan above Rs 5 lakh up to Rs 10 lakh under the Pradhan Mantri Mudra Yojana (PMMY), for established micro and small non-farm enterprises in manufacturing, trading, and services seeking to scale up. Loans up to Rs 10 lakh fall within the no-collateral ceiling and are covered under the Credit Guarantee Fund for Micro Units (CGFMU). Available through scheduled commercial banks, regional rural banks, small finance banks, MFIs, and NBFCs.",
   "official_url": "https://www.mudra.org.in/offerings",
-  "last_verified_date": "2026-07-10"
+  "last_verified_date": "2026-07-10",
+  "documents_required": [
+    "Mudra Loan Application Form",
+    "Passport-size Photographs of Applicant(s)",
+    "Applicant(s) Aadhaar Card",
+    "Applicant(s) PAN Card",
+    "Utility Bill (not older than 3 months) as Residence Proof",
+    "Udyam Registration Certificate",
+    "Business Address Proof (e.g., Rent Agreement or Business Utility Bill)",
+    "Bank Statements (last 12 months) of Business Account",
+    "Income Tax Returns (last 2-3 years) of Business and Proprietor/Partners/Directors",
+    "GST Registration Certificate",
+    "GST Returns (last 12 months)",
+    "Quotations for Machinery/Equipment/Items to be purchased"
+  ]
 }

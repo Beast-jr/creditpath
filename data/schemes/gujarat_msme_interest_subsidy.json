@@ -3,7 +3,15 @@
   "name": "Gujarat Aatmanirbhar MSME Interest Subsidy Scheme",
   "administered_by": "Industries and Mines Department, Government of Gujarat",
   "scheme_type": "subsidy",
-  "target_segments": ["micro", "small", "medium", "manufacturing", "services", "sc_st", "women"],
+  "target_segments": [
+    "micro",
+    "small",
+    "medium",
+    "manufacturing",
+    "services",
+    "sc_st",
+    "women"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 0,
   "interest_rate_min": 0,
@@ -16,5 +24,19 @@
   "eligibility_geographic_restriction": "Gujarat",
   "retrieval_text": "Under the Gujarat Industrial Policy (Aatmanirbhar Gujarat Scheme), new manufacturing and service MSME units receive an interest subsidy on term loans for plant, machinery, equipment, and furniture (land and building excluded). The subsidy rate depends on taluka category: Category 1 talukas receive 7% subsidy on term loans up to Rs 35 lakh per annum for 7 years; Category 2 talukas receive 6% up to Rs 30 lakh per annum for 6 years. SC/ST entrepreneurs, women, physically challenged persons, and young entrepreneurs (below 35) receive an additional 1% subsidy, capped at a maximum of 9% across all categories. Application must be filed within one year of first loan disbursement or before commencement of commercial production. Official source: msmec.gujarat.gov.in.",
   "official_url": "https://msmec.gujarat.gov.in/incentivescheme",
-  "last_verified_date": "2026-07-12"
+  "last_verified_date": "2026-07-12",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "PAN Card of the MSME unit",
+    "Aadhaar Card of proprietor/partners/directors",
+    "Constitutional documents of the enterprise (e.g., Partnership Deed, Memorandum & Articles of Association)",
+    "GST Registration Certificate (if applicable)",
+    "Term Loan Sanction Letter from the lending bank/financial institution",
+    "Term Loan Account Statement showing disbursement details",
+    "Invoices/Purchase bills for Plant, Machinery, Equipment, and Furniture",
+    "Proof of Commencement of Commercial Production (e.g., First Sales Invoice, Production Register Extract)",
+    "Proof of unit's operational address (e.g., Factory License, Electricity Bill) for Taluka category verification",
+    "Bank statements of the MSME unit",
+    "Relevant Caste Certificate/Disability Certificate/Age Proof (if applying for additional subsidy)"
+  ]
 }

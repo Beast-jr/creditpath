@@ -3,7 +3,14 @@
   "name": "Pradhan Mantri Mudra Yojana – Shishu",
   "administered_by": "Department of Financial Services, Ministry of Finance (MUDRA Ltd. / NCGTC)",
   "scheme_type": "term_loan",
-  "target_segments": ["micro", "first_generation", "no_collateral", "manufacturing", "trading", "services"],
+  "target_segments": [
+    "micro",
+    "first_generation",
+    "no_collateral",
+    "manufacturing",
+    "trading",
+    "services"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 50000,
   "interest_rate_min": 10.0,
@@ -16,5 +23,17 @@
   "eligibility_geographic_restriction": "",
   "retrieval_text": "Entry-level collateral-free micro loan of up to Rs 50,000 under the Pradhan Mantri Mudra Yojana (PMMY), aimed at very small and first-time non-farm businesses in manufacturing, trading, and services, including allied agricultural activities. No collateral or third-party guarantee is required; loans are covered under the Credit Guarantee Fund for Micro Units (CGFMU). Available through public sector banks, private banks, regional rural banks, small finance banks, MFIs, and NBFCs.",
   "official_url": "https://www.mudra.org.in/offerings",
-  "last_verified_date": "2026-07-10"
+  "last_verified_date": "2026-07-10",
+  "documents_required": [
+    "Duly filled Mudra Loan Application Form",
+    "Applicant's PAN Card",
+    "Applicant's Aadhaar Card",
+    "Applicant's Utility Bill (electricity/water/gas) not older than 3 months",
+    "Applicant's Recent Passport-size Photograph",
+    "Bank Account Statement (last 6 months)",
+    "Brief Business Proposal",
+    "Quotations for machinery/equipment/assets to be purchased",
+    "Business Address Proof (e.g., Rent Agreement, Shop Ownership Document)",
+    "Udyam Registration Certificate"
+  ]
 }

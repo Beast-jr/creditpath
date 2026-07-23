@@ -3,7 +3,12 @@
   "name": "Emergency Credit Line Guarantee Scheme (ECLGS) 5.0",
   "administered_by": "National Credit Guarantee Trustee Company Limited (NCGTC), Department of Financial Services, Ministry of Finance",
   "scheme_type": "credit_guarantee",
-  "target_segments": ["micro", "small", "medium", "no_collateral"],
+  "target_segments": [
+    "micro",
+    "small",
+    "medium",
+    "no_collateral"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 1000000000,
   "interest_rate_min": 8.0,
@@ -16,5 +21,17 @@
   "eligibility_geographic_restriction": "",
   "retrieval_text": "100% government-guaranteed additional credit line for existing MSME borrowers, providing additional credit of up to 20% of peak working capital utilised during the reference quarter, capped at Rs 100 crore per borrower. Guarantee coverage is 100% for MSMEs and 90% for non-MSME and airline-sector borrowers. Total scheme guarantee corpus is Rs 2,55,000 crore, applicable to loans sanctioned up to 31 March 2027 or until the guarantee corpus is exhausted, whichever is earlier. Restricted to borrowers with an existing credit relationship as of the scheme's reference date; not available to new-to-credit enterprises.",
   "official_url": "https://www.ncgtc.in/en/product-details/ECLGS/Emergency-Credit-Line-Guarantee-Scheme-(ECLGS)",
-  "last_verified_date": "2026-07-10"
+  "last_verified_date": "2026-07-10",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "Latest 12 months' Bank Statements (from all operative accounts)",
+    "Latest Audited Financial Statements (Balance Sheet and Profit & Loss Account)",
+    "Income Tax Returns (ITR) of the enterprise (last 2-3 assessment years)",
+    "Goods and Services Tax (GST) Registration Certificate (if applicable)",
+    "Recent GST Returns (e.g., GSTR-3B for the last 6-12 months)",
+    "ECLGS Loan Application Form",
+    "Declaration of eligibility under ECLGS (e.g., outstanding credit, overdue status)",
+    "PAN Card of the enterprise",
+    "Aadhaar and PAN Cards of Proprietors/Partners/Directors"
+  ]
 }

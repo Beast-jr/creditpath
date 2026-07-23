@@ -3,7 +3,14 @@
   "name": "Assam MSME Loan and Subsidy Scheme",
   "administered_by": "Directorate of Industries and Commerce, Government of Assam",
   "scheme_type": "subsidy",
-  "target_segments": ["micro", "small", "first_generation", "women", "manufacturing", "services"],
+  "target_segments": [
+    "micro",
+    "small",
+    "first_generation",
+    "women",
+    "manufacturing",
+    "services"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 2000000,
   "interest_rate_min": 0,
@@ -16,5 +23,19 @@
   "eligibility_geographic_restriction": "Assam",
   "retrieval_text": "The Government of Assam supports micro and small enterprises through a bank-linked interest subvention and capital subsidy package under its MSME promotion policy for the North-Eastern Region. Eligible manufacturing MSMEs receive capital investment subsidy of up to 30% of the cost of plant and machinery, capped at Rs 30 lakh. Interest subvention of 3-5% is available on working capital and term loans. Women entrepreneurs and enterprises in identified backward districts receive enhanced benefits. The scheme is designed to address the infrastructure and credit access disadvantages of the North-Eastern Region. Apply through the Assam Industries portal.",
   "official_url": "https://msme.gov.in/",
-  "last_verified_date": "2026-07-12"
+  "last_verified_date": "2026-07-12",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "PAN Card of the enterprise",
+    "PAN Card / Aadhaar Card of Proprietor/Partners/Directors",
+    "Business Address Proof",
+    "Memorandum and Articles of Association / Partnership Deed / Proprietorship Declaration",
+    "Project Report",
+    "Quotation(s) / Invoice(s) for Plant & Machinery",
+    "Bank Sanction Letter for Term Loan/Working Capital Loan",
+    "Loan Account Statement from Bank",
+    "Bank Statements (6-12 months) of the enterprise",
+    "GST Registration Certificate",
+    "No Objection Certificate (NOC) from Pollution Control Board"
+  ]
 }

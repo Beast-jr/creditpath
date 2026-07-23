@@ -3,7 +3,14 @@
   "name": "Pradhan Mantri Mudra Yojana – Kishore",
   "administered_by": "Department of Financial Services, Ministry of Finance (MUDRA Ltd. / NCGTC)",
   "scheme_type": "working_capital",
-  "target_segments": ["micro", "small", "no_collateral", "manufacturing", "trading", "services"],
+  "target_segments": [
+    "micro",
+    "small",
+    "no_collateral",
+    "manufacturing",
+    "trading",
+    "services"
+  ],
   "loan_range_min": 50001,
   "loan_range_max": 500000,
   "interest_rate_min": 11.0,
@@ -16,5 +23,18 @@
   "eligibility_geographic_restriction": "",
   "retrieval_text": "Mid-tier collateral-free loan from Rs 50,001 up to Rs 5 lakh under the Pradhan Mantri Mudra Yojana (PMMY), for micro and small non-farm enterprises in manufacturing, trading, and services that have outgrown Shishu-level financing. No collateral is required for loans up to Rs 10 lakh; covered under the Credit Guarantee Fund for Micro Units (CGFMU). Available through scheduled commercial banks, regional rural banks, small finance banks, MFIs, and NBFCs.",
   "official_url": "https://www.mudra.org.in/offerings",
-  "last_verified_date": "2026-07-10"
+  "last_verified_date": "2026-07-10",
+  "documents_required": [
+    "Aadhaar Card",
+    "PAN Card",
+    "Bank statements (last 6 months)",
+    "Udyam Registration Certificate",
+    "Business address proof (e.g., rent agreement, utility bill for business premises)",
+    "Passport-size photographs of applicant(s)",
+    "Project Report / Business Plan",
+    "Quotations for machinery/equipment (if applicable)",
+    "Details of working capital requirement",
+    "Shop & Establishment Certificate (if applicable)",
+    "GST Registration Certificate (if applicable)"
+  ]
 }

@@ -3,7 +3,12 @@
   "name": "MSME Competitive (LEAN) Scheme",
   "administered_by": "Ministry of Micro, Small and Medium Enterprises (implemented via Quality Council of India and National Productivity Council)",
   "scheme_type": "subsidy",
-  "target_segments": ["micro", "small", "medium", "manufacturing"],
+  "target_segments": [
+    "micro",
+    "small",
+    "medium",
+    "manufacturing"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 0,
   "interest_rate_min": 0.0,
@@ -11,10 +16,24 @@
   "collateral_required": false,
   "eligibility_vintage_months_min": 0,
   "eligibility_gst_required": false,
-  "eligibility_sectors_included": ["manufacturing"],
+  "eligibility_sectors_included": [
+    "manufacturing"
+  ],
   "eligibility_sectors_excluded": [],
   "eligibility_geographic_restriction": "",
   "retrieval_text": "Non-credit consultancy subsidy under the MSME Champions umbrella: the government funds 90% of handholding and consultancy fees for MSMEs adopting LEAN manufacturing tools (5S, Kaizen, Kanban, visual workplace, Poka-Yoke) to reach Basic, Intermediate, or Advanced LEAN certification levels. An additional 5% government contribution applies to SFURTI-cluster units and to units owned by women or SC/ST entrepreneurs or located in the North Eastern Region; a further 5% applies to units registering through industry associations or OEM organisations. This scheme has no loan component; it reimburses consultancy costs directly and carries no interest rate.",
   "official_url": "https://lean.msme.gov.in/",
-  "last_verified_date": "2026-07-10"
+  "last_verified_date": "2026-07-10",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "MSME Entity PAN Card",
+    "Proprietor/Partner/Director PAN Card(s)",
+    "Bank Account Proof (Cancelled Cheque or Bank Passbook front page)",
+    "Board Resolution (for Companies/LLPs) or Partnership Deed (for Partnership Firms) or Proprietorship Declaration (for Proprietorships)",
+    "Business Address Proof",
+    "Invoice/Bill from QCI/NPC/LEAN Consultant for LEAN services",
+    "Proof of Payment to QCI/NPC/LEAN Consultant (Bank statement copy/UTR details)",
+    "Self-Declaration of No Dues/Litigation",
+    "Proof of eligibility for additional 5% Government Contribution"
+  ]
 }
