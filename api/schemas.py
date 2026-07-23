@@ -37,7 +37,7 @@ class ScorecardResponse(BaseModel):
     weighted_score: float
     tier: str
     weakest_dimensions: list[str]
-    execution_time_ms: int
+    execution_time_ms: float
 
 
 class ActionResponse(BaseModel):
@@ -110,3 +110,18 @@ class WhatIfResponse(BaseModel):
 class HealthResponse(BaseModel):
     status: str
     version: str = "1.0.0"
+class ChatRequest(BaseModel):
+    question: str = Field(..., min_length=3, max_length=500)
+    profile: BusinessProfileRequest
+    weighted_score: float | None = Field(None, ge=0, le=100)
+    tier: str | None = None
+
+
+class ChatSourceResponse(BaseModel):
+    scheme_name: str
+    official_url: str
+
+
+class ChatResponse(BaseModel):
+    answer: str
+    sources: list[ChatSourceResponse]

@@ -63,6 +63,7 @@ class SchemeDocument:
     retrieval_text: str                       # text embedded for vector search
     official_url: str
     last_verified_date: str                   # ISO date, YYYY-MM-DD
+    documents_required: List[str] = field(default_factory=list)  # LLM-generated, spot-verified
 
 
 @dataclass

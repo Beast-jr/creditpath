@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:sbi.bank.in)",
+      "Bash(python -m scripts.validate_scheme_kb)",
+      "Bash(python -m pytest -q)",
+      "WebFetch(domain:www.paisabazaar.com)"
+    ]
+  }
+}

@@ -72,6 +72,7 @@ def test_bad_url_fails():
 
 
 def _load_all_schemes():
+    """Load every scheme JSON file as (scheme_id, dict) pairs."""
     results = []
     for path in sorted(SCHEMES_DIR.glob("*.json")):
         data = json.loads(path.read_text())
