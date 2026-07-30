@@ -35,3 +35,13 @@ def recommend(profile_dict: dict) -> dict:
 
 def whatif(profile_dict: dict) -> dict:
     return _post("/whatif", profile_dict)
+
+
+def chat(question: str, profile_dict: dict, weighted_score: float | None = None, tier: str | None = None) -> dict:
+    payload = {
+        "question": question,
+        "profile": profile_dict,
+        "weighted_score": weighted_score,
+        "tier": tier,
+    }
+    return _post("/chat", payload)

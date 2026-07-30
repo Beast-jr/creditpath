@@ -3,7 +3,12 @@
   "name": "SIDBI Make in India Soft Loan Fund for Enterprises (SMILE)",
   "administered_by": "Small Industries Development Bank of India (SIDBI)",
   "scheme_type": "term_loan",
-  "target_segments": ["small", "medium", "manufacturing", "services"],
+  "target_segments": [
+    "small",
+    "medium",
+    "manufacturing",
+    "services"
+  ],
   "loan_range_min": 1000000,
   "loan_range_max": 2500000,
   "interest_rate_min": 9.45,
@@ -16,5 +21,19 @@
   "eligibility_geographic_restriction": "",
   "retrieval_text": "SIDBI's direct term loan for new and existing MSMEs to meet the debt-equity ratio required for setting up an enterprise, or for expansion, modernisation, or technology upgradation, with emphasis on the 25 sectors identified under the Make in India programme. Rate is fixed at approximately 9.45%-9.95% per annum for the first three years (bank-rating dependent), rising to roughly 11.70%-12.70% per annum from the fourth year onward. Requires MSME registration and a satisfactory credit record; higher project-cost-linked loan quanta are available for SC/ST, persons-with-disability, and women-led enterprises.",
   "official_url": "https://www.sidbi.in/other-loan-products",
-  "last_verified_date": "2026-07-10"
+  "last_verified_date": "2026-07-10",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "PAN Card of the business entity",
+    "PAN Card of all promoters/partners/directors",
+    "Aadhaar Card of all promoters/partners/directors",
+    "Detailed Project Report (DPR) / Business Plan",
+    "Audited Financial Statements (last 3 years for existing businesses)",
+    "Projected Financial Statements and Cash Flow (for loan tenure)",
+    "Bank Statements (last 12 months of primary business account)",
+    "Business Address Proof",
+    "Constitutional documents (e.g., Memorandum & Articles of Association, Partnership Deed, LLP Agreement)",
+    "Credit Bureau Report (CIBIL or Experian) of entity and promoters",
+    "Income Tax Returns (last 3 years for entity and promoters)"
+  ]
 }

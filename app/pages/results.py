@@ -52,6 +52,12 @@ def render_results(result: dict):
     if plan and plan.get("actions"):
         render_improvement_plan(plan)
 
+    # Ask about schemes (RAG chat)
+    st.markdown("---")
+    if st.button("💬 Ask about your schemes", use_container_width=True, type="primary"):
+        st.session_state.page = "chat"
+        st.rerun()
+
     # Navigation buttons
     st.markdown("---")
     col1, col2, col3 = st.columns(3)

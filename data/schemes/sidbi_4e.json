@@ -3,7 +3,12 @@
   "name": "SIDBI End-to-End Energy Efficiency (4E) Financing Scheme",
   "administered_by": "Small Industries Development Bank of India (SIDBI)",
   "scheme_type": "term_loan",
-  "target_segments": ["micro", "small", "medium", "manufacturing"],
+  "target_segments": [
+    "micro",
+    "small",
+    "medium",
+    "manufacturing"
+  ],
   "loan_range_min": 1000000,
   "loan_range_max": 30000000,
   "interest_rate_min": 6,
@@ -11,10 +16,26 @@
   "collateral_required": true,
   "eligibility_vintage_months_min": 0,
   "eligibility_gst_required": false,
-  "eligibility_sectors_included": ["manufacturing"],
+  "eligibility_sectors_included": [
+    "manufacturing"
+  ],
   "eligibility_sectors_excluded": [],
   "eligibility_geographic_restriction": "",
   "retrieval_text": "SIDBI's 4E scheme provides term loans from Rs 10 lakh to Rs 3 crore at concessional interest rates of 6.4-7% per annum to manufacturing MSMEs investing in energy efficiency improvements and clean energy projects aligned with India's sustainable development goals. Funding is channelised in collaboration with the World Bank. Eligible investments include energy-efficient machinery, LED lighting, solar rooftop installations, and waste heat recovery systems. The scheme aims to reduce greenhouse gas emissions while lowering energy costs for MSME manufacturers.",
   "official_url": "https://www.sidbi.in/green-finance",
-  "last_verified_date": "2026-07-12"
+  "last_verified_date": "2026-07-12",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "PAN Card of the MSME entity",
+    "PAN Card and Aadhaar Card of Proprietor/Partners/Directors",
+    "Audited Financial Statements (last 3 years)",
+    "Bank Statements (last 12 months)",
+    "GST Registration Certificate",
+    "GST Returns (last 11 months)",
+    "Business Address Proof (e.g., electricity bill, rent agreement)",
+    "Detailed Project Report for Energy Efficiency intervention",
+    "Quotations from suppliers for energy-efficient equipment/machinery",
+    "Energy Audit Report (if available or required for project justification)",
+    "Constitutional documents (e.g., Memorandum & Articles of Association, Partnership Deed, LLP Agreement)"
+  ]
 }

@@ -3,7 +3,16 @@
   "name": "Rajasthan MSME Loan Scheme (RSMSSB)",
   "administered_by": "Rajasthan Small Industries Corporation / Bureau of Investment Promotion, Government of Rajasthan",
   "scheme_type": "term_loan",
-  "target_segments": ["micro", "small", "first_generation", "manufacturing", "services", "trading", "sc_st", "women"],
+  "target_segments": [
+    "micro",
+    "small",
+    "first_generation",
+    "manufacturing",
+    "services",
+    "trading",
+    "sc_st",
+    "women"
+  ],
   "loan_range_min": 100000,
   "loan_range_max": 2500000,
   "interest_rate_min": 5,
@@ -16,5 +25,19 @@
   "eligibility_geographic_restriction": "Rajasthan",
   "retrieval_text": "The Rajasthan government supports micro and small enterprises through concessional term loans from Rs 1 lakh to Rs 25 lakh at interest rates of 5-8% per annum for manufacturing, services, and trading activities. Collateral-free loans are available under CGTMSE cover for amounts up to Rs 10 lakh. Additional subsidies of 25-35% of project cost are available for SC/ST entrepreneurs, women, and first-generation entrepreneurs. Enterprises must be registered under Udyam and located in Rajasthan. Apply through the Rajasthan Single Window Clearance System or local District Industries Centre.",
   "official_url": "https://rajind.rajasthan.gov.in/",
-  "last_verified_date": "2026-07-12"
+  "last_verified_date": "2026-07-12",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "PAN Card (of enterprise)",
+    "Aadhaar Card (of proprietor/partners/directors/guarantors)",
+    "Bank statements (last 6-12 months)",
+    "Business Address Proof (e.g., Rent Agreement, Utility Bills)",
+    "Residential Address Proof (of proprietor/partners/directors/guarantors)",
+    "Detailed Project Report / Business Plan",
+    "Audited Financial Statements (Balance Sheet, P&L for last 2-3 years, for existing businesses)",
+    "GST Registration Certificate (if applicable)",
+    "Business Constitution Documents (e.g., Partnership Deed, MOA & AOA)",
+    "Quotations for machinery/equipment/working capital items (as per project report)",
+    "Caste Certificate (for SC/ST entrepreneurs, if applying for subsidy)"
+  ]
 }

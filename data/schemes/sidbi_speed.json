@@ -3,7 +3,11 @@
   "name": "SIDBI Loan for Purchase of Equipment for Enterprise's Development (SPEED)",
   "administered_by": "Small Industries Development Bank of India (SIDBI)",
   "scheme_type": "term_loan",
-  "target_segments": ["small", "medium", "manufacturing"],
+  "target_segments": [
+    "small",
+    "medium",
+    "manufacturing"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 20000000,
   "interest_rate_min": 8.8,
@@ -11,10 +15,26 @@
   "collateral_required": true,
   "eligibility_vintage_months_min": 36,
   "eligibility_gst_required": false,
-  "eligibility_sectors_included": ["manufacturing"],
+  "eligibility_sectors_included": [
+    "manufacturing"
+  ],
   "eligibility_sectors_excluded": [],
   "eligibility_geographic_restriction": "",
   "retrieval_text": "SIDBI direct term loan dedicated to machinery and equipment purchase: up to Rs 100 lakh for enterprises borrowing from SIDBI for the first time and up to Rs 200 lakh for existing SIDBI borrowers, with equipment sourced from OEMs that have signed an MoU with SIDBI. Applicant SME units must have been operational for more than 3 years with cash profit in the last 2 years. Repayment tenure is 2-5 years including a moratorium of up to 6 months; the purchased equipment is typically hypothecated as primary security.",
   "official_url": "https://www.sidbi.in/machinery-loan",
-  "last_verified_date": "2026-07-10"
+  "last_verified_date": "2026-07-10",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "PAN Card of the enterprise",
+    "PAN Card(s) of Proprietor/Partners/Directors",
+    "Aadhaar Card(s) of Proprietor/Partners/Directors",
+    "Audited Financial Statements (Balance Sheet & P&L) for the last 3 years",
+    "Bank Statements of main operating account for the last 12 months",
+    "Income Tax Returns (ITR) of enterprise and promoters for the last 3 years",
+    "Business Constitution Proof (e.g., Partnership Deed, MOA & AOA, Proprietorship Declaration)",
+    "Business Address Proof (e.g., electricity bill, rent agreement)",
+    "Proforma Invoice/Quotation for machinery/equipment to be purchased",
+    "Details of existing loans/credit facilities",
+    "Board Resolution (for companies) or Partnership Letter (for firms) for availing loan"
+  ]
 }

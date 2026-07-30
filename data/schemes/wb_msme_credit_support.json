@@ -3,7 +3,13 @@
   "name": "West Bengal MSME Credit Support Scheme",
   "administered_by": "Micro, Small and Medium Enterprises and Textiles Department, Government of West Bengal",
   "scheme_type": "credit_guarantee",
-  "target_segments": ["micro", "small", "manufacturing", "services", "trading"],
+  "target_segments": [
+    "micro",
+    "small",
+    "manufacturing",
+    "services",
+    "trading"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 20000000,
   "interest_rate_min": 0,
@@ -16,5 +22,19 @@
   "eligibility_geographic_restriction": "West Bengal",
   "retrieval_text": "The Government of West Bengal provides credit support and guarantee facilitation to micro and small enterprises in the state through its MSME and Textiles Department. The scheme facilitates collateral-free lending up to Rs 2 crore by facilitating CGTMSE guarantee cover and, in certain cases, providing state-level guarantee fee reimbursement. The scheme is intended to complement central government credit guarantee mechanisms and improve credit flow to first-generation and underserved MSMEs across manufacturing, services, and trading sectors in West Bengal. Interest rate is set by the lending institution.",
   "official_url": "https://msme.gov.in/",
-  "last_verified_date": "2026-07-12"
+  "last_verified_date": "2026-07-12",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "PAN Card (of the MSME entity)",
+    "PAN Card (of Proprietor/Partners/Directors)",
+    "Aadhaar Card (of Proprietor/Partners/Directors)",
+    "Business Constitution Proof (e.g., Partnership Deed, MOA/AOA, Shop & Establishment Certificate)",
+    "Business Address Proof (e.g., Utility Bill, Rent Agreement, Property Deed)",
+    "Bank statements (last 6-12 months)",
+    "GST Registration Certificate and latest GST Returns (GSTR-3B)",
+    "Income Tax Returns (last 2-3 financial years for business and individuals)",
+    "Audited Financial Statements (last 2-3 financial years, Balance Sheet and P&L Account)",
+    "Project Report or Business Plan",
+    "Relevant Business Licenses and Registrations (e.g., Trade License, FSSAI)"
+  ]
 }

@@ -3,7 +3,13 @@
   "name": "SIDBI Green Finance Scheme",
   "administered_by": "Small Industries Development Bank of India (SIDBI)",
   "scheme_type": "term_loan",
-  "target_segments": ["micro", "small", "medium", "manufacturing", "services"],
+  "target_segments": [
+    "micro",
+    "small",
+    "medium",
+    "manufacturing",
+    "services"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 200000000,
   "interest_rate_min": 8,
@@ -16,5 +22,19 @@
   "eligibility_geographic_restriction": "",
   "retrieval_text": "SIDBI's Green Finance Scheme provides direct term loans up to Rs 20 crore at interest rates of approximately 7.6-9.4% per annum to MSMEs investing in green projects aligned with India's national climate commitments. Eligible projects include renewable energy installations (solar, wind, biogas), electric vehicle charging stations, battery swap infrastructure, waste management systems, and clean manufacturing processes. The scheme supports India's commitment to reduce greenhouse gas emissions and aligns with the Aatmanirbhar Bharat mission. A risk sharing facility window is also available for high-impact innovative climate technology projects that have successfully reached the prototype stage.",
   "official_url": "https://www.sidbi.in/green-finance",
-  "last_verified_date": "2026-07-12"
+  "last_verified_date": "2026-07-12",
+  "documents_required": [
+    "Udyam Registration Certificate",
+    "Company/Firm PAN Card",
+    "Audited Financial Statements (last 3 years)",
+    "Bank Statements (last 12 months)",
+    "Detailed Project Report for Green Project",
+    "Quotations for Capital Expenditure (Green Project)",
+    "Constitutional Documents (e.g., Memorandum & Articles of Association, Partnership Deed)",
+    "Board Resolution authorizing loan application",
+    "Income Tax Returns (last 3 years) of Entity and Promoters",
+    "KYC Documents of Promoters/Directors (PAN, Aadhaar)",
+    "Proof of Address for Registered Office",
+    "Environmental Clearances / No-Objection Certificates (if applicable)"
+  ]
 }

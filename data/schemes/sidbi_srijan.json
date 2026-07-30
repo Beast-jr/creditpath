@@ -3,7 +3,13 @@
   "name": "TIFAC-SIDBI Revolving Technology Innovation Fund (SRIJAN)",
   "administered_by": "Small Industries Development Bank of India (SIDBI) in collaboration with TIFAC",
   "scheme_type": "term_loan",
-  "target_segments": ["micro", "small", "medium", "manufacturing", "services"],
+  "target_segments": [
+    "micro",
+    "small",
+    "medium",
+    "manufacturing",
+    "services"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 20000000,
   "interest_rate_min": 3,
@@ -16,5 +22,19 @@
   "eligibility_geographic_restriction": "",
   "retrieval_text": "SIDBI and TIFAC jointly provide highly concessional soft loans up to Rs 2 crore per project at 3-5% per annum to Indian MSMEs and startups for development, demonstration, up-scaling, and commercialisation of innovative technology-based projects that have reached pre-commercialisation stage or are ready for scale-up. Loans are provided on flexible repayment terms. Technical evaluation of project proposals is carried out by TIFAC while financial appraisal is done by SIDBI. Applications can be submitted to either TIFAC or SIDBI through a common application form available at tifac.org.in or sidbi.in.",
   "official_url": "https://www.sidbi.in/head/uploads/other_loans_document/TIFAC_SRIJAN.pdf",
-  "last_verified_date": "2026-07-12"
+  "last_verified_date": "2026-07-12",
+  "documents_required": [
+    "Common Application Form",
+    "Udyam Registration Certificate",
+    "PAN Card of the applicant entity",
+    "Certificate of Incorporation or Business Registration Document",
+    "Memorandum of Association (MoA) and Articles of Association (AoA) (for companies)",
+    "Audited Financial Statements (last 3 years)",
+    "Bank Statements (last 12 months)",
+    "Detailed Project Report (DPR) with technical, market, and financial aspects",
+    "Technical reports, test results, or prototype demonstration proof",
+    "Projected Financial Statements (minimum 5 years)",
+    "Board Resolution / Partner's Consent Letter for loan application",
+    "KYC documents of Promoters/Directors (PAN Card, Aadhaar Card)"
+  ]
 }

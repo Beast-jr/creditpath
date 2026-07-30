@@ -3,7 +3,12 @@
   "name": "Udyam Registration - MSME Benefits Package",
   "administered_by": "Ministry of Micro, Small and Medium Enterprises",
   "scheme_type": "subsidy",
-  "target_segments": ["micro", "small", "medium", "no_collateral"],
+  "target_segments": [
+    "micro",
+    "small",
+    "medium",
+    "no_collateral"
+  ],
   "loan_range_min": 0,
   "loan_range_max": 10000000,
   "interest_rate_min": 0.0,
@@ -16,5 +21,19 @@
   "eligibility_geographic_restriction": "",
   "retrieval_text": "Bundle of cross-cutting benefits unlocked by Udyam Registration, the mandatory free MSME registration on udyamregistration.gov.in, rather than a single credit product: eligibility for CGTMSE collateral-free credit guarantee cover, bank interest rates typically about 1.5 percentage points lower than non-Udyam borrowers, statutory protection to charge delayed-payment buyers compound interest at 3 times the RBI-notified rate for payments delayed beyond 45 days, 75% reimbursement of ISO certification fees, 50% subsidy on patent and trademark registration, exemption from stamp duty and registration fees on industrial units, and electricity bill concessions on application to the local electricity board. This entry represents the registration-linked benefit bundle, not a discrete loan a borrower applies for.",
   "official_url": "https://udyamregistration.gov.in/",
-  "last_verified_date": "2026-07-10"
+  "last_verified_date": "2026-07-10",
+  "documents_required": [
+    "Aadhaar Number",
+    "PAN Card",
+    "GSTIN Certificate",
+    "Bank Account Details (Account Number and IFSC Code)",
+    "Udyam Registration Certificate",
+    "Business Address Proof (e.g., utility bill, rent agreement)",
+    "Bank Statements (latest 6 months)",
+    "Latest Income Tax Return (ITR)",
+    "Financial Statements (Balance Sheet and Profit & Loss Account)",
+    "Invoice(s) for goods/services or fees paid",
+    "Proof of Payment/Receipts for claimed expenses",
+    "Legal Entity Proof (e.g., Partnership Deed, Certificate of Incorporation)"
+  ]
 }

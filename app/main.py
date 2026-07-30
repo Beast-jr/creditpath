@@ -3,6 +3,7 @@ from app.pages.assessment import render_assessment_form
 from app.pages.results import render_results
 from app.pages.schemes import render_schemes
 from app.pages.whatif import render_whatif
+from app.pages.chat import render_chat
 import app.api_client as api_client
 
 st.set_page_config(
@@ -52,6 +53,12 @@ elif page == "schemes":
 
 elif page == "whatif":
     render_whatif()
+elif page == "chat":
+    if "assessment_result" not in st.session_state:
+        st.session_state.page = "assessment"
+        st.rerun()
+    else:
+        render_chat(st.session_state.assessment_result)
 
 else:
     st.session_state.page = "assessment"
